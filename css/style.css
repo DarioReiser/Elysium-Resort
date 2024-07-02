@@ -1,0 +1,3823 @@
+.ex1 {
+  margin-bottom: .5rem; }
+
+.ex2 {
+  margin-bottom: 1rem; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 4rem; }
+
+.mb-lg {
+  margin-bottom: 6rem; }
+
+.mb-xl {
+  margin-bottom: 8rem; }
+
+.mb-xxl {
+  margin-bottom: 10rem; }
+
+.remove-margin {
+  margin: 0 !important; }
+
+.mt-sm {
+  margin-top: 2rem; }
+
+.mt-md {
+  margin-top: 4rem; }
+
+.mt-lg {
+  margin-top: 6rem; }
+
+.mt-xl {
+  margin-top: 8rem; }
+
+.mt-xxl {
+  margin-top: 10rem; }
+
+.pb-sm {
+  padding-bottom: 2rem; }
+
+.pb-md {
+  padding-bottom: 4rem; }
+
+.pb-lg {
+  padding-bottom: 6rem; }
+
+.pb-xl {
+  padding-bottom: 8rem; }
+
+.pb-xxl {
+  padding-bottom: 10rem; }
+
+.pb-huge {
+  padding-bottom: 10rem; }
+
+.pt-sm {
+  padding-top: 2rem; }
+
+.pt-md {
+  padding-top: 4rem; }
+
+.pt-lg {
+  padding-top: 6rem; }
+
+.pt-xl {
+  padding-top: 8rem; }
+
+.pt-xxl {
+  padding-top: 10rem; }
+
+.pt-huge {
+  padding-top: 12rem; }
+
+.white-text {
+  color: #fff !important; }
+
+.blue-text {
+  color: #003761 !important; }
+
+.black-text {
+  color: #000 !important; }
+
+.italic-text {
+  font-style: italic; }
+
+.line-through-text {
+  text-decoration: line-through; }
+
+.header-icons {
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: #fff;
+  cursor: pointer; }
+
+.black-header-icons {
+  fill: #000; }
+
+.lang-icons {
+  height: 2.9rem;
+  width: 2.9rem;
+  stroke: #fff;
+  cursor: pointer; }
+
+.black-lang-icon {
+  stroke: #000; }
+
+.tick-icon {
+  width: 2.2rem;
+  margin-right: .9rem;
+  fill: #005083; }
+
+.location-icons {
+  width: 3rem;
+  height: 3rem;
+  margin-right: .9rem;
+  fill: #005083; }
+
+.extra-info-ul {
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 3rem;
+  row-gap: .5rem;
+  list-style-type: none; }
+  @media only screen and (max-width: 81.25em) {
+    .extra-info-ul {
+      column-gap: 2.5rem; } }
+  @media only screen and (max-width: 75em) {
+    .extra-info-ul {
+      grid-template-columns: 1fr; } }
+  @media only screen and (max-width: 31.25em) {
+    .extra-info-ul {
+      margin-bottom: 3.5rem; } }
+  @media only screen and (max-width: 28.13em) {
+    .extra-info-ul {
+      column-gap: 2rem; } }
+  @media only screen and (max-width: 25em) {
+    .extra-info-ul {
+      grid-template-columns: 1fr; } }
+
+.desc-icons {
+  width: 3rem;
+  height: 3rem;
+  fill: #005083;
+  margin-right: 1rem;
+  stroke: #005083; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+  @media only screen and (min-width: 100em) {
+    html {
+      font-size: 69%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 77%; } }
+  @media only screen and (min-width: 125em) {
+    html {
+      font-size: 86%; } }
+  @media only screen and (min-width: 137.5em) {
+    html {
+      font-size: 95%; } }
+  @media only screen and (min-width: 156.25em) {
+    html {
+      font-size: 108%; } }
+
+body {
+  overflow-x: hidden;
+  position: relative; }
+
+main {
+  position: relative; }
+
+section {
+  overflow: hidden; }
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent; }
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.5); }
+
+::-webkit-scrollbar-thumb {
+  background: #96c7dc; }
+
+.section-heading {
+  font-size: 5.4rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #003761; }
+
+.section-p-text, .list-text {
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif; }
+
+.intro-text-main-h3 {
+  font-size: 3.5rem;
+  font-family: "Jost", sans-serif;
+  color: #003761;
+  font-weight: 500; }
+  @media only screen and (max-width: 62.5em) {
+    .intro-text-main-h3 {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .intro-text-main-h3 {
+      font-size: 2.6rem; } }
+
+.intro-text-h3 {
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+  color: #003761;
+  font-weight: 500; }
+  @media only screen and (max-width: 62.5em) {
+    .intro-text-h3 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .intro-text-h3 {
+      font-size: 2.4rem; } }
+
+.intro-text-p {
+  font-size: 2.2rem;
+  font-family: "Jost", sans-serif; }
+  @media only screen and (max-width: 62.5em) {
+    .intro-text-p {
+      font-size: 2rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .intro-text-p {
+      font-size: 1.8rem; } }
+
+.mobile-menu-heading {
+  font-family: "Jost", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #003761;
+  font-weight: 500; }
+
+.main-heading-h1 {
+  font-size: 10rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #fff;
+  margin-bottom: 4rem; }
+  @media only screen and (max-width: 50em) {
+    .main-heading-h1 {
+      font-size: 8.3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .main-heading-h1 {
+      font-size: 7.5rem;
+      text-align: center; } }
+  @media only screen and (max-width: 28.13em) {
+    .main-heading-h1 {
+      font-size: 6.5rem; } }
+  @media only screen and (max-width: 25em) {
+    .main-heading-h1 {
+      font-size: 5.7rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .main-heading-h1 {
+      font-size: 5rem; } }
+
+.main-heading-h1-subtitle {
+  font-size: 3.6rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem; }
+  @media only screen and (max-width: 31.25em) {
+    .main-heading-h1-subtitle {
+      font-size: 2.5rem; } }
+
+.lang-selector {
+  font-size: 2.4rem;
+  font-family: "Jost", sans-serif; }
+
+.section-heading {
+  text-transform: capitalize; }
+  @media only screen and (max-width: 75em) {
+    .section-heading {
+      font-size: 5.2rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .section-heading {
+      font-size: 4.4rem; } }
+  @media only screen and (max-width: 28.13em) {
+    .section-heading {
+      font-size: 4.2rem; } }
+  @media only screen and (max-width: 25em) {
+    .section-heading {
+      font-size: 4rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .section-heading {
+      font-size: 3.8rem; } }
+
+.section-title-white {
+  font-size: 5.4rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: capitalize; }
+  @media only screen and (max-width: 75em) {
+    .section-title-white {
+      font-size: 5.2rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .section-title-white {
+      font-size: 4.4rem; } }
+  @media only screen and (max-width: 28.13em) {
+    .section-title-white {
+      font-size: 4.2rem; } }
+  @media only screen and (max-width: 25em) {
+    .section-title-white {
+      font-size: 4rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .section-title-white {
+      font-size: 3.8rem; } }
+
+.section-subtitle {
+  font-family: "Jost", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  width: 65%;
+  margin: auto; }
+  @media only screen and (max-width: 75em) {
+    .section-subtitle {
+      width: 100%; } }
+
+.section-sub-h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.8rem;
+  color: #003761;
+  margin-bottom: 1rem; }
+  @media only screen and (max-width: 31.25em) {
+    .section-sub-h3 {
+      font-size: 3.8rem; } }
+  @media only screen and (max-width: 28.13em) {
+    .section-sub-h3 {
+      font-size: 3.6rem; } }
+  @media only screen and (max-width: 25em) {
+    .section-sub-h3 {
+      font-size: 3.4rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .section-sub-h3 {
+      font-size: 3.2rem; } }
+
+.list-text {
+  display: flex;
+  align-items: center; }
+
+.extra-info {
+  font-family: "Jost", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.card-info-1,
+.card-info-2,
+.card-info-3 {
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: .4rem .9rem;
+  display: flex;
+  align-items: center; }
+  @media only screen and (max-width: 21.9em) {
+    .card-info-1,
+    .card-info-2,
+    .card-info-3 {
+      padding: .3rem .6rem; } }
+
+.card-info-1 {
+  background-color: #FFD700; }
+
+.card-info-2 {
+  background-color: #FF6F61; }
+
+.card-info-3 {
+  background-color: #98FB98; }
+
+.desc-h5-title {
+  font-size: 2.6rem;
+  font-family: "Cormorant Garamond", serif; }
+
+.explore-p {
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif; }
+
+.back-p-text {
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  color: #003761;
+  font-weight: 500; }
+
+.click-message-p {
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  color: #fff; }
+
+.section-h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem; }
+
+.offered-icon-heading {
+  font-size: 2.5rem;
+  font-family: "Jost", sans-serif;
+  color: #005083; }
+
+.spa-h3 {
+  font-size: 3rem;
+  font-family: "Cormorant Garamond", serif; }
+  @media only screen and (max-width: 31.25em) {
+    .spa-h3 {
+      font-size: 2.6rem; } }
+
+.amenities-h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #003761;
+  margin-bottom: .5rem; }
+
+.pageIndex-p {
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  color: #003761;
+  font-weight: 500; }
+  @media only screen and (max-width: 31.25em) {
+    .pageIndex-p {
+      width: 80%; } }
+
+.foods-h4 {
+  color: #003761;
+  font-size: 2.6rem;
+  font-family: "Cormorant Garamond", serif; }
+  @media only screen and (max-width: 25em) {
+    .foods-h4 {
+      font-size: 2.4rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .foods-h4 {
+      font-size: 2rem; } }
+
+.foods-menu-h4 {
+  color: #003761;
+  font-size: 3.2rem;
+  font-family: "Cormorant Garamond", serif; }
+  @media only screen and (max-width: 25em) {
+    .foods-menu-h4 {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .foods-menu-h4 {
+      font-size: 2.6rem; } }
+
+.foods-menu-p {
+  color: #696969;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif; }
+  @media only screen and (max-width: 21.9em) {
+    .foods-menu-p {
+      font-size: 1.2rem; } }
+
+.review-h3 {
+  font-size: 3rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #003761; }
+
+.review-p {
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif; }
+
+.ceo-text {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Cormorant Garamond", serif; }
+
+.ceo-text-title {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Jost", sans-serif; }
+
+.faq-titles {
+  font-size: 2.4rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700; }
+
+.banner-p-text {
+  font-size: 1.8rem;
+  color: #fff;
+  font-family: "Jost", sans-serif; }
+
+.sub-text-h5 {
+  font-size: 2.2rem;
+  color: #003761;
+  margin-bottom: .5rem;
+  font-family: "Jost", sans-serif; }
+
+.footer-heading {
+  font-size: 3.2rem;
+  font-family: "Cormorant Garamond", serif;
+  color: #fff;
+  margin-bottom: 2rem; }
+
+.footer-p {
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  color: #fff; }
+
+.footer__bottom-copyright-p {
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-align: center;
+  width: 95%;
+  margin: auto; }
+
+.footer-logo-p {
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .footer-logo-p {
+      font-size: 2rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .footer-logo-p {
+      font-size: 1.8rem; } }
+  @media only screen and (max-width: 25em) {
+    .footer-logo-p {
+      font-size: 1.6rem; } }
+
+.submitted-form-h3 {
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 400; }
+  @media only screen and (max-width: 62.5em) {
+    .submitted-form-h3 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .submitted-form-h3 {
+      font-size: 2.4rem; } }
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(65%);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes backAndForth {
+  0% {
+    transform: rotate(20deg); }
+  50% {
+    transform: rotate(35deg); }
+  100% {
+    transform: rotate(20deg); } }
+
+@keyframes upsideDownBackAndForth {
+  0% {
+    transform: rotate(230deg); }
+  50% {
+    transform: rotate(210deg); }
+  100% {
+    transform: rotate(230deg); } }
+
+@keyframes backAndForth2 {
+  0% {
+    transform: rotate(70deg) rotateX(180deg); }
+  50% {
+    transform: rotate(85deg) rotateX(180deg); }
+  100% {
+    transform: rotate(70deg) rotateX(180deg); } }
+
+@keyframes upsideDownBackAndForth2 {
+  0% {
+    transform: rotate(110deg); }
+  50% {
+    transform: rotate(100deg); }
+  100% {
+    transform: rotate(110deg); } }
+
+@keyframes ZoomInOut {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.05); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.6);
+    opacity: 0; }
+  50% {
+    transform: scale(1);
+    opacity: 0.8; }
+  100% {
+    transform: scale(1.2);
+    opacity: 0; } }
+
+.btn-default, .btn-default-white:link, .btn-default-white:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  border: 2px solid white;
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer; }
+  @media only screen and (max-width: 75em) {
+    .btn-default, .btn-default-white:link, .btn-default-white:visited {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-default, .btn-default-white:link, .btn-default-white:visited {
+      font-size: 1.5rem;
+      padding: 1.5rem 2.5rem; } }
+
+.btn-default {
+  color: #fff;
+  transition: all .3s;
+  background-color: transparent;
+  padding: 2rem 3rem;
+  /* Default padding for larger screens */
+  /* Media query for small laptops, tablets, and iPads */
+  /* Media query for large phones */
+  /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+  @media only screen and (max-width: 75em) {
+    .btn-default {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-default {
+      font-size: 1.5rem;
+      padding: 1.5rem 2.5rem; } }
+  .btn-default:hover {
+    background-color: white;
+    color: #000; }
+  @media only screen and (max-width: 50em), only screen and (hover: none) {
+    .btn-default:hover {
+      background-color: transparent;
+      /* Remove hover effect */
+      color: #fff;
+      /* Reset text color */ } }
+
+.btn-default-black {
+  color: #fff;
+  transition: all .3s;
+  color: #000;
+  border: 2px solid #000;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  /* Additional styles for devices with no hover capability (eg., touchscreens) */ }
+  @media only screen and (max-width: 75em) {
+    .btn-default-black {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-default-black {
+      font-size: 1.5rem;
+      padding: 1.5rem 2.5rem;
+      text-align: center; } }
+  .btn-default-black:hover {
+    border: 2px solid #005083;
+    background-color: #005083;
+    color: #fff; }
+  @media only screen and (max-width: 50em), onlyscreen and (hover: none) {
+    .btn-default-black:hover {
+      background-color: transparent;
+      /* Remove hover effect */
+      color: #000;
+      /* Reset text color */
+      border: 2px solid #000;
+      /* Reset border color */ } }
+
+.btn-default-black-card {
+  display: block;
+  color: #fff;
+  text-align: center;
+  transition: all .3s;
+  color: #000;
+  border: 2px solid #000;
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  padding: 1.5rem 4rem;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 500;
+  background-color: transparent;
+  /* Additional styles for devices with no hover capability (eg.,touchscreens) */ }
+  @media only screen and (max-width: 75em) {
+    .btn-default-black-card {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-default-black-card {
+      font-size: 1.5rem;
+      padding: 1.5rem 2.5rem; } }
+  .btn-default-black-card:hover {
+    border: 2px solid #005083;
+    background-color: #005083;
+    color: #fff; }
+  @media only screen and (max-width: 50em), onlyscreen and (hover: none) {
+    .btn-default-black-card:hover {
+      background-color: transparent;
+      /* Remove hover effect */
+      color: #000;
+      /* Reset text color */
+      border: 2px solid #000;
+      /* Reset border color */ } }
+
+.full {
+  width: 45%;
+  margin: 0 auto; }
+
+.btn-default-white:link, .btn-default-white:visited {
+  color: #000;
+  background-color: white; }
+  @media only screen and (max-width: 75em) {
+    .btn-default-white:link, .btn-default-white:visited {
+      padding: 2rem 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-default-white:link, .btn-default-white:visited {
+      font-size: 1.5rem;
+      padding: 1.5rem 2.5rem; } }
+
+.blue-background {
+  background-color: #005083;
+  color: #fff;
+  border: 2px solid #005083;
+  /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+  .blue-background:hover {
+    background-color: #005083;
+    color: #fff;
+    border: 2px solid #005083; }
+  @media only screen and (max-width: 50em), only screen and (hover: none) {
+    .blue-background:hover {
+      background-color: #005083;
+      /* Remove hover effect */
+      color: #fff;
+      /* Reset text color */ } }
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  position: relative;
+  height: 9rem; }
+  @media only screen and (max-width: 75em) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .8rem 3rem 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .nav {
+      padding: 1.7rem 1rem 0;
+      height: 8.5rem; } }
+  @media only screen and (max-width: 21.9em) {
+    .nav {
+      padding: 1.5rem 0.8rem 0; } }
+  .nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .nav__logo .nav-link {
+      display: contents; }
+    @media only screen and (max-width: 62.5em) {
+      .nav__logo {
+        display: block; } }
+    .nav__logo .actual-logo {
+      width: 85%; }
+      @media only screen and (max-width: 75em) {
+        .nav__logo .actual-logo {
+          width: 35rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .nav__logo .actual-logo {
+          width: 28rem; } }
+      @media only screen and (max-width: 21.9em) {
+        .nav__logo .actual-logo {
+          width: 23rem; } }
+  .nav__menu {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .nav__menu {
+        display: none; } }
+    .nav__menu-ul {
+      list-style-type: none;
+      display: flex;
+      gap: 3.2rem; }
+      @media only screen and (max-width: 75em) {
+        .nav__menu-ul {
+          gap: 2rem; } }
+      .nav__menu-ul-li .menu-link {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        font-weight: 500; }
+  .nav__extra-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    @media only screen and (max-width: 75em) {
+      .nav__extra-links {
+        display: none; } }
+    .nav__extra-links-lang {
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer; }
+      .nav__extra-links-lang::before {
+        content: 'PT';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.3s;
+        font-size: 2.4rem;
+        font-family: "Jost", sans-serif;
+        color: #fff; }
+      .nav__extra-links-lang:hover:before {
+        opacity: 1;
+        transform: translateY(90%); }
+  .nav__menu-icon {
+    transform: translateY(-2.8px);
+    display: none;
+    cursor: pointer; }
+    @media only screen and (max-width: 75em) {
+      .nav__menu-icon {
+        display: block; } }
+    .nav__menu-icon .icon-menu {
+      width: 5.5rem;
+      height: 5.5rem;
+      fill: #fff; }
+      @media only screen and (max-width: 31.25em) {
+        .nav__menu-icon .icon-menu {
+          width: 4.3rem;
+          height: 4.3rem; } }
+      @media only screen and (max-width: 21.9em) {
+        .nav__menu-icon .icon-menu {
+          width: 3.8rem;
+          height: 3.8rem; } }
+
+.drop-nav__navi {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 9rem;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.35);
+  transform: translateY(-103%);
+  transition: all 0.5s;
+  width: 100%;
+  z-index: 2; }
+  @media only screen and (max-width: 75em) {
+    .drop-nav__navi {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .8rem 3rem 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .drop-nav__navi {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      height: 8.5rem;
+      box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.4); } }
+  @media only screen and (max-width: 21.9em) {
+    .drop-nav__navi {
+      padding-left: .8rem;
+      padding-right: .8rem; } }
+  .drop-nav__navi-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .drop-nav__navi-logo .nav-link {
+      display: contents; }
+    @media only screen and (max-width: 75em) {
+      .drop-nav__navi-logo {
+        display: block; } }
+    .drop-nav__navi-logo .actual-logo {
+      width: 85%; }
+      @media only screen and (max-width: 75em) {
+        .drop-nav__navi-logo .actual-logo {
+          width: 35rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .drop-nav__navi-logo .actual-logo {
+          width: 28rem; } }
+      @media only screen and (max-width: 21.9em) {
+        .drop-nav__navi-logo .actual-logo {
+          width: 23rem; } }
+  .drop-nav__navi-menu {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .drop-nav__navi-menu {
+        display: none; } }
+    .drop-nav__navi-menu-ul {
+      list-style-type: none;
+      display: flex;
+      gap: 3.2rem; }
+      .drop-nav__navi-menu-ul-li .menu-link {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #000;
+        font-weight: 500;
+        transition: all .2s; }
+        .drop-nav__navi-menu-ul-li .menu-link:hover {
+          color: #005083; }
+  .drop-nav__navi-extra-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    @media only screen and (max-width: 75em) {
+      .drop-nav__navi-extra-links {
+        display: none; } }
+    .drop-nav__navi-extra-links-lang {
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer; }
+      .drop-nav__navi-extra-links-lang::before {
+        content: 'PT';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.3s;
+        font-size: 2.4rem;
+        font-family: "Jost", sans-serif;
+        color: #000; }
+      .drop-nav__navi-extra-links-lang:hover:before {
+        opacity: 1;
+        transform: translateY(90%); }
+  .drop-nav__navi-menu-icon {
+    transform: translateY(-2.8px);
+    display: none; }
+    @media only screen and (max-width: 75em) {
+      .drop-nav__navi-menu-icon {
+        display: block; } }
+    @media only screen and (max-width: 21.9em) {
+      .drop-nav__navi-menu-icon {
+        transform: translateY(-2px); } }
+    .drop-nav__navi-menu-icon .icon-menu {
+      width: 5.5rem;
+      height: 5.5rem;
+      fill: #000; }
+      @media only screen and (max-width: 31.25em) {
+        .drop-nav__navi-menu-icon .icon-menu {
+          width: 4.3rem;
+          height: 4.3rem; } }
+      @media only screen and (max-width: 21.9em) {
+        .drop-nav__navi-menu-icon .icon-menu {
+          width: 3.8rem;
+          height: 3.8rem; } }
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  background-color: #005083;
+  color: white !important; }
+  .modal-header .modal-logo {
+    width: 43rem; }
+    @media only screen and (max-width: 31.25em) {
+      .modal-header .modal-logo {
+        width: 90%; } }
+
+.pageIndex {
+  width: 85%;
+  margin: 0 auto; }
+  @media only screen and (max-width: 31.25em) {
+    .pageIndex {
+      width: 95%; } }
+
+.pageIndex-desc {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  @media only screen and (max-width: 75em) {
+    .pageIndex-desc {
+      width: 95%; } }
+
+.modal-title {
+  text-align: center;
+  padding-bottom: 5rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10rem; }
+  @media only screen and (max-width: 31.25em) {
+    .modal-title {
+      width: 95%; } }
+  .modal-title-twirly {
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .modal-title-twirly .section-twirly {
+      width: 41%; }
+      @media only screen and (max-width: 31.25em) {
+        .modal-title-twirly .section-twirly {
+          width: 100%; } }
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50rem;
+  height: 100%;
+  background-color: #E5F3FF;
+  z-index: 5;
+  transform: translateX(-102%);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4); }
+  @media only screen and (max-width: 75em) {
+    .mobile-menu {
+      display: block; } }
+  @media only screen and (max-width: 37.5em) {
+    .mobile-menu {
+      width: 85%; } }
+  .mobile-menu__container {
+    position: relative;
+    padding: 9.5rem 2.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .mobile-menu__container {
+        padding: 8.5rem 1.3rem; } }
+    .mobile-menu__container-content-logo .actual-img {
+      width: 100%; }
+    .mobile-menu__container-content-menu {
+      margin-top: 3.5rem; }
+      .mobile-menu__container-content-menu .mobile-ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem; }
+        .mobile-menu__container-content-menu .mobile-ul .menu-link {
+          color: #003761;
+          text-decoration: none;
+          font-family: "Jost", sans-serif;
+          text-transform: uppercase;
+          font-size: 1.8rem;
+          font-weight: 500; }
+    .mobile-menu__container-content-socials {
+      margin-top: 3rem; }
+      .mobile-menu__container-content-socials-links {
+        display: flex;
+        gap: .5rem; }
+      .mobile-menu__container-content-socials-lang {
+        margin-top: 2rem;
+        font-size: 2.2rem;
+        font-family: "Jost", sans-serif;
+        color: #003761; }
+        .mobile-menu__container-content-socials-lang .actual-img {
+          height: 1.6rem; }
+    .mobile-menu__container-close-btn {
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+      cursor: pointer; }
+      @media only screen and (max-width: 37.5em) {
+        .mobile-menu__container-close-btn {
+          top: 1rem;
+          left: .5rem; } }
+      .mobile-menu__container-close-btn .actual-svg {
+        width: 6rem;
+        height: 6rem; }
+        @media only screen and (max-width: 37.5em) {
+          .mobile-menu__container-close-btn .actual-svg {
+            width: 5rem;
+            height: 5rem; } }
+
+.footer__top {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 0.9rem; }
+  @media only screen and (max-width: 75em) {
+    .footer__top {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media only screen and (max-width: 31.25em) {
+    .footer__top {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      padding: .7rem;
+      gap: .8rem; } }
+  .footer__top-img {
+    position: relative;
+    overflow: hidden;
+    /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+    .footer__top-img .actual-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .footer__top-img-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 80, 131, 0.5);
+      color: #fff;
+      transition: all .4s;
+      opacity: 0; }
+      .footer__top-img-content .footer-insta-svg {
+        width: 5rem;
+        height: 5rem;
+        fill: #fff; }
+    .footer__top-img:hover .footer__top-img-content {
+      opacity: 1; }
+    @media only screen and (max-width: 50em), only screen and (hover: none) {
+      .footer__top-img:hover .footer__top-img-content {
+        display: none; } }
+
+.footer__bottom {
+  background-color: #003761; }
+  .footer__bottom-above {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 8rem; }
+    @media only screen and (max-width: 62.5em) {
+      .footer__bottom-above {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .footer__bottom-above {
+        grid-template-columns: 1fr; } }
+    .footer__bottom-above-details {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto; }
+      .footer__bottom-above-details-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem; }
+        .footer__bottom-above-details-icons .footer-icons {
+          width: 3.2rem;
+          height: 3.2rem;
+          fill: #fff;
+          cursor: pointer; }
+    @media only screen and (max-width: 62.5em) {
+      .footer__bottom-above .details-align {
+        grid-column: 1 / -1; } }
+  .footer__bottom .divider {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+    @media only screen and (max-width: 62.5em) {
+      .footer__bottom .divider {
+        width: 85%; } }
+    .footer__bottom .divider-span {
+      display: block;
+      border-top: 1px solid rgba(255, 255, 255, 0.45);
+      height: 2px; }
+  .footer__bottom-below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .footer__bottom-below-logo {
+      font-size: 11rem;
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 300;
+      color: #fff;
+      margin-bottom: 4rem;
+      text-align: center; }
+      @media only screen and (max-width: 56.25em) {
+        .footer__bottom-below-logo {
+          font-size: 10rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .footer__bottom-below-logo {
+          margin-bottom: 5rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .footer__bottom-below-logo {
+          font-size: 9rem; } }
+      @media only screen and (max-width: 25em) {
+        .footer__bottom-below-logo {
+          font-size: 8rem; } }
+      @media only screen and (max-width: 21.9em) {
+        .footer__bottom-below-logo {
+          font-size: 7rem; } }
+    .footer__bottom-below-nav-ul {
+      list-style-type: none;
+      font-family: "Jost", sans-serif;
+      display: flex;
+      gap: 3.5rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__bottom-below-nav-ul {
+          gap: 2rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .footer__bottom-below-nav-ul {
+          flex-direction: column-reverse;
+          align-items: center;
+          gap: 3.5rem;
+          margin-bottom: 7rem; } }
+      .footer__bottom-below-nav-ul-li .sub-menu-link {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none; }
+        @media only screen and (max-width: 37.5em) {
+          .footer__bottom-below-nav-ul-li .sub-menu-link {
+            font-size: 1.4rem; } }
+        @media only screen and (max-width: 31.25em) {
+          .footer__bottom-below-nav-ul-li .sub-menu-link {
+            font-size: 1.8rem; } }
+        @media only screen and (max-width: 25em) {
+          .footer__bottom-below-nav-ul-li .sub-menu-link {
+            font-size: 1.7rem; } }
+  .footer__bottom-copyright {
+    text-align: center;
+    margin-top: 7rem;
+    padding-bottom: 2rem; }
+    @media only screen and (max-width: 31.25em) {
+      .footer__bottom-copyright {
+        width: 95%;
+        margin: 0 auto; } }
+
+.modal-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/front.webp);
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; }
+  @media only screen and (max-width: 31.25em) {
+    .hero {
+      height: 100vh; } }
+  .hero__main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83%;
+    animation: fadeIn 2.1s cubic-bezier(0.2, 0.1, 0.25, 1); }
+    .hero__main-title-section-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 3rem; }
+      @media only screen and (max-width: 31.25em) {
+        .hero__main-title-section-buttons {
+          gap: 1rem; } }
+
+.site-intro {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 90vh;
+  background-color: #E5F3FF;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  padding: 4rem 3rem;
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 50em) {
+    .site-intro {
+      padding: 3.5rem 2rem;
+      width: 90%;
+      height: 80vh; } }
+  .site-intro-container {
+    position: relative; }
+    .site-intro-container-title {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      width: 80%;
+      margin: 0 auto; }
+      @media only screen and (max-width: 75em) {
+        .site-intro-container-title {
+          width: 100%; } }
+      .site-intro-container-title .actual-img {
+        width: 20rem; }
+    .site-intro-container-content {
+      margin-top: 8rem;
+      padding: 0 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 8rem; }
+      @media only screen and (max-width: 75em) {
+        .site-intro-container-content {
+          padding: 0 2.5rem; } }
+      @media only screen and (max-width: 62.5em) {
+        .site-intro-container-content {
+          padding: 0 0rem;
+          gap: 6rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .site-intro-container-content {
+          margin-top: 4rem; } }
+      .site-intro-container-content-rules {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem; }
+        @media only screen and (max-width: 62.5em) {
+          .site-intro-container-content-rules {
+            flex-direction: column;
+            gap: 5rem; } }
+        .site-intro-container-content-rules-item1 {
+          flex-basis: 50%; }
+        .site-intro-container-content-rules-item2 {
+          flex-basis: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          @media only screen and (max-width: 62.5em) {
+            .site-intro-container-content-rules-item2 {
+              flex-direction: row;
+              flex-wrap: wrap;
+              order: 1; } }
+          .site-intro-container-content-rules-item2 .actual-img {
+            width: 55%; }
+            @media only screen and (max-width: 75em) {
+              .site-intro-container-content-rules-item2 .actual-img {
+                width: 75%; } }
+            @media only screen and (max-width: 62.5em) {
+              .site-intro-container-content-rules-item2 .actual-img {
+                width: 100%; } }
+    .site-intro-container-end {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 8rem; }
+      @media only screen and (max-width: 75em) {
+        .site-intro-container-end {
+          width: 100%; } }
+    .site-intro-container-close {
+      margin-top: 2.5rem;
+      text-align: center; }
+    .site-intro-container-closebtn {
+      position: absolute;
+      top: -1rem;
+      right: 0rem; }
+      @media only screen and (max-width: 75em) {
+        .site-intro-container-closebtn {
+          top: -1.5rem;
+          right: -1.5rem; } }
+      .site-intro-container-closebtn .intro-close-btn {
+        fill: #000;
+        width: 5rem;
+        cursor: pointer;
+        transition: all .2s; }
+        .site-intro-container-closebtn .intro-close-btn:hover {
+          transform: scale(1.3);
+          fill: #003761; }
+
+.about {
+  position: relative;
+  background-color: #E5F3FF; }
+  .about__section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 13rem;
+    padding-bottom: 15rem;
+    flex-direction: column;
+    gap: 2.5rem; }
+    @media only screen and (max-width: 75em) {
+      .about__section {
+        width: 90%;
+        padding-top: 9rem;
+        padding-bottom: 8rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .about__section {
+        width: 95%;
+        padding-bottom: 7.5rem;
+        padding-top: 8.5rem; } }
+    .about__section-title {
+      width: 47%; }
+      @media only screen and (max-width: 75em) {
+        .about__section-title {
+          width: 70%; } }
+      @media only screen and (max-width: 50em) {
+        .about__section-title {
+          width: 100%; } }
+    .about__section-content {
+      display: flex;
+      gap: 4rem; }
+      @media only screen and (max-width: 75em) {
+        .about__section-content {
+          gap: 3rem; } }
+      @media only screen and (max-width: 62.5em) {
+        .about__section-content {
+          flex-direction: column; } }
+      .about__section-content-img {
+        width: 50%; }
+        @media only screen and (max-width: 62.5em) {
+          .about__section-content-img {
+            width: 100%; } }
+        .about__section-content-img .villa-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .about__section-content-box {
+        width: 53%;
+        transform: translateY(-7px); }
+        @media only screen and (max-width: 75em) {
+          .about__section-content-box {
+            width: 51%; } }
+        @media only screen and (max-width: 62.5em) {
+          .about__section-content-box {
+            width: 100%; } }
+        .about__section-content-box-text {
+          margin-bottom: 6.5rem; }
+          .about__section-content-box-text-ul {
+            margin-top: 2.5rem;
+            margin-bottom: 5.5rem;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(2, max-content);
+            column-gap: 5rem;
+            row-gap: 1rem; }
+            @media only screen and (max-width: 75em) {
+              .about__section-content-box-text-ul {
+                column-gap: 4rem; } }
+            @media only screen and (max-width: 31.25em) {
+              .about__section-content-box-text-ul {
+                grid-template-columns: 1fr; } }
+        .about__section-content-box-img .beach-img {
+          width: 100%;
+          height: 100%; }
+
+.animation-sec-2-text {
+  transform: translateX(-130%);
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .animation-sec-2-text {
+      transform: translateY(100%);
+      transition: all 1.5s; } }
+
+.show-animation .animation-sec-2-text {
+  transform: translateX(0);
+  opacity: 1; }
+
+.animation-sec-2-content {
+  transform: translate(0, 100%);
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .animation-sec-2-content {
+      transform: translateY(100%); } }
+
+.show-animation .animation-sec-2-content {
+  transform: translate(0, -5px);
+  opacity: 1; }
+
+.animate-twirlies {
+  opacity: 0;
+  transition: all 1.7s; }
+
+.show-animation .animate-twirlies {
+  opacity: 1; }
+
+.villas {
+  position: relative; }
+  .villas__section {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 17rem;
+    padding-bottom: 9rem; }
+    @media only screen and (max-width: 75em) {
+      .villas__section {
+        width: 90%;
+        padding-top: 11rem;
+        padding-bottom: 5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .villas__section {
+        width: 95%;
+        padding-top: 11rem;
+        padding-bottom: 3rem; } }
+    .villas__section-title {
+      text-align: center;
+      margin: 0 auto;
+      position: relative; }
+      .villas__section-title-twirly {
+        position: absolute;
+        top: -2.5rem;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        .villas__section-title-twirly .section-twirly {
+          width: 45%; }
+          @media only screen and (max-width: 50em) {
+            .villas__section-title-twirly .section-twirly {
+              width: 70%; } }
+          @media only screen and (max-width: 31.25em) {
+            .villas__section-title-twirly .section-twirly {
+              width: 100%; } }
+    .villas__section-content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4.5rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      overflow: hidden; }
+      @media only screen and (max-width: 81.25em) {
+        .villas__section-content {
+          gap: 3.5rem; } }
+      @media only screen and (max-width: 75em) {
+        .villas__section-content {
+          gap: 2rem; } }
+      @media only screen and (max-width: 62.5em) {
+        .villas__section-content {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 3rem; } }
+      @media only screen and (max-width: 50em) {
+        .villas__section-content {
+          grid-template-columns: 1fr;
+          gap: 5rem; } }
+      .villas__section-content-card {
+        background-color: #E5F3FF; }
+        .villas__section-content-card-img {
+          position: relative;
+          height: 28rem; }
+          @media only screen and (max-width: 50em) {
+            .villas__section-content-card-img {
+              height: 40rem; } }
+          @media only screen and (max-width: 31.25em) {
+            .villas__section-content-card-img {
+              height: 30rem; } }
+          .villas__section-content-card-img .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+          .villas__section-content-card-img .card-img-info {
+            position: absolute;
+            bottom: 1.2rem;
+            left: .9rem;
+            display: flex;
+            gap: .9rem; }
+            @media only screen and (max-width: 28.13em) {
+              .villas__section-content-card-img .card-img-info {
+                bottom: 1rem; } }
+            .villas__section-content-card-img .card-img-info .card-info-icons {
+              width: 2rem;
+              height: 2rem;
+              margin-left: 1rem; }
+              @media only screen and (max-width: 31.25em) {
+                .villas__section-content-card-img .card-img-info .card-info-icons {
+                  width: 1.75rem;
+                  height: 1.75rem; } }
+        .villas__section-content-card-info {
+          padding: 2.5rem 3rem 3.5rem 3rem; }
+          @media only screen and (max-width: 81.25em) {
+            .villas__section-content-card-info {
+              padding: 2.5rem 2.5rem 3.5rem 2.5rem; } }
+          @media only screen and (max-width: 75em) {
+            .villas__section-content-card-info {
+              padding: 2.5rem 2rem 3.5rem 2rem; } }
+          @media only screen and (max-width: 31.25em) {
+            .villas__section-content-card-info {
+              padding: 1.5rem 1rem 2rem 1rem; } }
+
+.animation-sidecards {
+  transform: translateY(100%);
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .animation-sidecards {
+      transition: all 1.5s; } }
+
+.show-animation .animation-sidecards {
+  transform: translateY(0);
+  opacity: 1; }
+
+.animation-mid-sidecard {
+  transform: translateY(-100%);
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .animation-mid-sidecard {
+      transform: translateY(100%);
+      transition: all 1.5s; } }
+
+.show-animation .animation-mid-sidecard {
+  transform: translateY(0);
+  opacity: 1; }
+
+.amenities__section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50vh); }
+  @media only screen and (max-width: 75em) {
+    .amenities__section {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 75vh repeat(2, 55vh) 75vh; } }
+  @media only screen and (max-width: 50em) {
+    .amenities__section {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80vh repeat(4, 50vh) 80vh; } }
+  .amenities__section-amenity-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.7)), url(../img/Nearby-locations/Kauri/1.webp);
+    background-position: 30%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem 3rem 7rem 3rem; }
+    @media only screen and (max-width: 81.25em) {
+      .amenities__section-amenity-one {
+        padding: 2rem 2rem 7rem 2rem; } }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-one {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        padding: 2rem 5rem 7rem 5rem; } }
+    @media only screen and (max-width: 50em) {
+      .amenities__section-amenity-one {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        padding: 2rem 2.5rem 7rem 2.5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .amenities__section-amenity-one {
+        padding: 2rem 1.3rem 7rem 1.3rem;
+        gap: 2rem; } }
+  .amenities__section-amenity-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #E5F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 4rem 2rem 4rem;
+    gap: 4rem; }
+    .amenities__section-amenity-two .text {
+      text-align: center; }
+    @media only screen and (max-width: 81.25em) {
+      .amenities__section-amenity-two {
+        padding: 0rem 3rem 2rem 3rem; } }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-two {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3; } }
+    @media only screen and (max-width: 50em) {
+      .amenities__section-amenity-two {
+        padding: 0rem 1.3rem 0rem 1.3rem;
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        gap: 2rem; } }
+  .amenities__section-amenity-three {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/3.webp);
+    background-position: center;
+    background-size: cover; }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-three {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3; } }
+    @media only screen and (max-width: 50em) {
+      .amenities__section-amenity-three {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5; } }
+    @media only screen and (max-width: 31.25em) {
+      .amenities__section-amenity-three {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4; } }
+  .amenities__section-amenity-four {
+    grid-column: 2 / 2;
+    grid-row: 2 / -1;
+    background-image: url(../img/Nearby-2.webp);
+    background-position: center;
+    background-size: cover; }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-four {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4; } }
+    @media only screen and (max-width: 31.25em) {
+      .amenities__section-amenity-four {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5; } }
+  .amenities__section-amenity-five {
+    grid-column: 3 / 4;
+    grid-row: 2 / -1;
+    background-color: #E5F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 2rem; }
+    .amenities__section-amenity-five .text {
+      text-align: center; }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-five {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4; } }
+    @media only screen and (max-width: 50em) {
+      .amenities__section-amenity-five {
+        padding: 0rem 1.3rem 0rem 1.3rem;
+        grid-column: 1 / -1;
+        grid-row: 5 / 6; } }
+  .amenities__section-amenity-six {
+    grid-column: 4 / -1;
+    grid-row: 1 / -1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.7)), url(../img/Nearby-4.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem 3rem 7rem 3rem; }
+    @media only screen and (max-width: 81.25em) {
+      .amenities__section-amenity-six {
+        padding: 2rem 2rem 7rem 2rem; } }
+    @media only screen and (max-width: 75em) {
+      .amenities__section-amenity-six {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+        padding: 2rem 5rem 7rem 5rem;
+        background-position: 25% 30%; } }
+    @media only screen and (max-width: 50em) {
+      .amenities__section-amenity-six {
+        padding: 2rem 2.5rem 7rem 2.5rem;
+        grid-column: 1 / -1;
+        grid-row: 6 / 7; } }
+    @media only screen and (max-width: 31.25em) {
+      .amenities__section-amenity-six {
+        grid-column: 1 / -1;
+        grid-row: 6 / 7;
+        padding: 2rem 1.3rem 7rem 1.3rem;
+        gap: 2rem; } }
+
+.animate-amenities-text {
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: scale(0);
+  opacity: 0; }
+
+.show-animation .animate-amenities-text {
+  transform: scale(1);
+  opacity: 1; }
+
+.animate-amenities-side-left,
+.animate-amenities-side-right {
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: translateX(-110%);
+  opacity: 0;
+  transition-delay: 0.6s; }
+  @media only screen and (max-width: 50em) {
+    .animate-amenities-side-left,
+    .animate-amenities-side-right {
+      transition-delay: 0s;
+      transition: all 1.8s; } }
+
+.animate-amenities-side-right {
+  transform: translateX(110%); }
+
+.show-animation .animate-amenities-side-left,
+.show-animation .animate-amenities-side-right {
+  transform: translateX(0);
+  opacity: 1; }
+
+.locations {
+  position: relative;
+  z-index: 5; }
+  .locations__section {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+    overflow-y: scroll;
+    transition: all 0.3s; }
+    .locations__section-container {
+      margin-top: 15rem; }
+      .locations__section-container-box {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        margin-bottom: 7rem; }
+        @media only screen and (max-width: 75em) {
+          .locations__section-container-box {
+            width: 95%; } }
+        @media only screen and (max-width: 62.5em) {
+          .locations__section-container-box {
+            margin-bottom: 5rem; } }
+        .locations__section-container-box-item {
+          display: flex;
+          transition: all .3s;
+          /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+          @media only screen and (max-width: 62.5em) {
+            .locations__section-container-box-item {
+              flex-direction: column;
+              background-color: #E5F3FF; } }
+          .locations__section-container-box-item .slideshow-container {
+            flex-basis: 50%;
+            position: relative;
+            /* Additional styles for devices with no hover capability (e.g., touchscreens) */
+            /* Position the "next button" to the right */ }
+            .locations__section-container-box-item .slideshow-container .mySlides {
+              height: 100%;
+              width: 100%; }
+              @media only screen and (max-width: 62.5em) {
+                .locations__section-container-box-item .slideshow-container .mySlides {
+                  height: 60rem; } }
+              @media only screen and (max-width: 50em) {
+                .locations__section-container-box-item .slideshow-container .mySlides {
+                  height: 50rem; } }
+              @media only screen and (max-width: 31.25em) {
+                .locations__section-container-box-item .slideshow-container .mySlides {
+                  height: 35rem; } }
+              .locations__section-container-box-item .slideshow-container .mySlides .numbertext {
+                color: #fff;
+                font-size: 1.5rem;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0; }
+              .locations__section-container-box-item .slideshow-container .mySlides .slide-imgs {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; }
+            .locations__section-container-box-item .slideshow-container .prev, .locations__section-container-box-item .slideshow-container .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 1.2rem 1.7rem;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 2.8rem;
+              transition: 0.5s ease;
+              border-radius: 0 3px 3px 0;
+              background-color: rgba(229, 243, 255, 0.5);
+              user-select: none; }
+            .locations__section-container-box-item .slideshow-container .prev:hover, .locations__section-container-box-item .slideshow-container .next:hover {
+              background-color: rgba(229, 243, 255, 0.95);
+              color: #000; }
+            @media only screen and (max-width: 50em), only screen and (hover: none) {
+              .locations__section-container-box-item .slideshow-container .prev:hover, .locations__section-container-box-item .slideshow-container .next:hover {
+                color: white;
+                background-color: rgba(229, 243, 255, 0.5); } }
+            .locations__section-container-box-item .slideshow-container .next {
+              right: 0;
+              border-radius: 3px 0 0 3px; }
+          .locations__section-container-box-item-text {
+            padding: 3rem 3.5rem 4.5rem 3.5rem;
+            background-color: #E5F3FF;
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            @media only screen and (max-width: 31.25em) {
+              .locations__section-container-box-item-text {
+                padding: 1.5rem 1rem 2rem 1rem; } }
+            .locations__section-container-box-item-text-traits {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 1rem;
+              margin-top: 2rem;
+              margin-bottom: 3rem; }
+              .locations__section-container-box-item-text-traits .trait-1,
+              .locations__section-container-box-item-text-traits .trait-2,
+              .locations__section-container-box-item-text-traits .trait-3,
+              .locations__section-container-box-item-text-traits .trait-4,
+              .locations__section-container-box-item-text-traits .trait-5,
+              .locations__section-container-box-item-text-traits .trait-6,
+              .locations__section-container-box-item-text-traits .trait-7 {
+                width: fit-content;
+                padding: .3rem 1.2rem;
+                border-radius: 100px; }
+              .locations__section-container-box-item-text-traits .trait-1 {
+                background-color: darkblue; }
+              .locations__section-container-box-item-text-traits .trait-2 {
+                background-color: orange; }
+              .locations__section-container-box-item-text-traits .trait-3 {
+                background-color: red; }
+              .locations__section-container-box-item-text-traits .trait-4 {
+                background-color: orangered; }
+              .locations__section-container-box-item-text-traits .trait-5 {
+                background-color: green; }
+              .locations__section-container-box-item-text-traits .trait-6 {
+                background-color: maroon; }
+              .locations__section-container-box-item-text-traits .trait-7 {
+                background-color: burlywood; }
+            .locations__section-container-box-item-text .buttons {
+              margin-top: 4rem;
+              display: flex; }
+          .locations__section-container-box-item:hover {
+            box-shadow: 0 0 6rem rgba(0, 0, 0, 0.25); }
+          @media only screen and (max-width: 50em), only screen and (hover: none) {
+            .locations__section-container-box-item:hover {
+              box-shadow: none; } }
+  .locations .remove-location-modal {
+    opacity: 0;
+    visibility: hidden; }
+  .locations .locations-close-btn {
+    position: absolute;
+    top: 2.5rem;
+    right: 1.5rem; }
+    @media only screen and (max-width: 62.5em) {
+      .locations .locations-close-btn {
+        top: 13rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .locations .locations-close-btn {
+        right: 0; } }
+    @media only screen and (max-width: 31.25em) {
+      .locations .locations-close-btn {
+        right: 0rem; } }
+    .locations .locations-close-btn-actual {
+      stroke: #fff;
+      width: 6rem;
+      height: 6rem;
+      cursor: pointer;
+      transition: all .2s; }
+      @media only screen and (max-width: 62.5em) {
+        .locations .locations-close-btn-actual {
+          stroke: black; } }
+      @media only screen and (max-width: 37.5em) {
+        .locations .locations-close-btn-actual {
+          width: 7rem;
+          height: 7rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .locations .locations-close-btn-actual {
+          width: 6rem;
+          height: 6rem; } }
+      .locations .locations-close-btn-actual:hover {
+        transform: scale(1.3); }
+
+.offered__section {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 17rem;
+  padding-bottom: 7rem; }
+  @media only screen and (max-width: 75em) {
+    .offered__section {
+      width: 90%;
+      padding-top: 12rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .offered__section {
+      width: 95%;
+      padding-top: 12rem;
+      padding-bottom: 5rem; } }
+  .offered__section-title {
+    text-align: center;
+    margin: 0 auto;
+    position: relative; }
+    .offered__section-title-twirly {
+      position: absolute;
+      top: -2.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .offered__section-title-twirly .section-twirly {
+        width: 45%; }
+        @media only screen and (max-width: 50em) {
+          .offered__section-title-twirly .section-twirly {
+            width: 70%; } }
+        @media only screen and (max-width: 31.25em) {
+          .offered__section-title-twirly .section-twirly {
+            width: 100%; } }
+  .offered__section-awards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 62.5em) {
+      .offered__section-awards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); } }
+    .offered__section-awards-img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .offered__section-awards-img .actual-img {
+        width: 16.5rem;
+        height: auto;
+        filter: grayscale(100%);
+        opacity: .6; }
+        @media only screen and (max-width: 75em) {
+          .offered__section-awards-img .actual-img {
+            width: 14rem; } }
+        @media only screen and (max-width: 62.5em) {
+          .offered__section-awards-img .actual-img {
+            width: 16rem; } }
+        @media only screen and (max-width: 50em) {
+          .offered__section-awards-img .actual-img {
+            width: 14rem; } }
+        @media only screen and (max-width: 31.25em) {
+          .offered__section-awards-img .actual-img {
+            width: 100%; } }
+    .offered__section-awards .smaller-1 {
+      transform: scale(0.75); }
+    .offered__section-awards .smaller-2 {
+      transform: scale(0.7); }
+    .offered__section-awards .smaller-3 {
+      transform: scale(0.95); }
+    .offered__section-awards .award-large-1 {
+      transform: scale(1.4); }
+  .offered__section-content {
+    display: flex;
+    gap: 4rem; }
+    @media only screen and (max-width: 75em) {
+      .offered__section-content {
+        gap: 3rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .offered__section-content {
+        flex-direction: column; } }
+    .offered__section-content-box1 {
+      flex-basis: 47%; }
+      .offered__section-content-box1-img {
+        width: 100%;
+        height: 100%; }
+        .offered__section-content-box1-img .actual-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+    .offered__section-content-box2 {
+      flex-basis: 53%; }
+      .offered__section-content-box2-img {
+        margin-bottom: 2.5rem; }
+        .offered__section-content-box2-img .actual-img {
+          width: 100%;
+          height: 100%; }
+
+.offered__section-awards {
+  transition: all 1.5s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: translateY(125%);
+  opacity: 0; }
+
+.show-animation .offered__section-awards {
+  opacity: 1;
+  transform: translateY(0); }
+
+.spa__section-content-top {
+  display: flex;
+  height: 50rem;
+  background-color: #E5F3FF; }
+  @media only screen and (max-width: 62.5em) {
+    .spa__section-content-top {
+      flex-direction: column;
+      height: auto; } }
+  @media only screen and (max-width: 31.25em) {
+    .spa__section-content-top {
+      flex-direction: column;
+      height: auto; } }
+  .spa__section-content-top-text {
+    flex-basis: 35%;
+    padding: 3rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+    @media only screen and (max-width: 81.25em) {
+      .spa__section-content-top-text {
+        flex-basis: 55%; } }
+    @media only screen and (max-width: 75em) {
+      .spa__section-content-top-text {
+        flex-basis: 90%;
+        padding-left: 4rem; } }
+    @media only screen and (max-width: 50em) {
+      .spa__section-content-top-text {
+        padding-top: 5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .spa__section-content-top-text {
+        margin-top: 3rem;
+        padding: 1rem; } }
+  .spa__section-content-top-options {
+    display: flex;
+    align-items: center;
+    padding: 3rem 3rem 3rem 3rem;
+    gap: 2rem; }
+    @media only screen and (max-width: 75em) {
+      .spa__section-content-top-options {
+        padding-right: 4rem;
+        padding-left: 0rem;
+        gap: 1rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .spa__section-content-top-options {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 30rem;
+        padding-left: 4rem;
+        padding-top: 0; } }
+    @media only screen and (max-width: 50em) {
+      .spa__section-content-top-options {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .spa__section-content-top-options {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 12rem;
+        padding: 1rem;
+        gap: .5rem;
+        margin-bottom: 3rem; } }
+    .spa__section-content-top-options-item {
+      height: 90%;
+      position: relative;
+      /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+      @media only screen and (max-width: 31.25em) {
+        .spa__section-content-top-options-item {
+          background-color: rgba(0, 80, 131, 0.25); } }
+      .spa__section-content-top-options-item .actual-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .spa__section-content-top-options-item-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 80, 131, 0.6);
+        opacity: 0;
+        transition: all .4s; }
+        @media only screen and (max-width: 31.25em) {
+          .spa__section-content-top-options-item-text {
+            display: none; } }
+        .spa__section-content-top-options-item-text .spa-h3 {
+          transform: translateY(2.5rem);
+          opacity: 0;
+          transition: all .6s; }
+          @media only screen and (max-width: 31.25em) {
+            .spa__section-content-top-options-item-text .spa-h3 {
+              display: none;
+              opacity: 1;
+              transform: translate(0); } }
+      .spa__section-content-top-options-item:hover .spa__section-content-top-options-item-text,
+      .spa__section-content-top-options-item:hover .spa-h3 {
+        opacity: 1;
+        transform: translateY(0); }
+      @media only screen and (max-width: 50em), only screen and (hover: none) {
+        .spa__section-content-top-options-item:hover .spa__section-content-top-options-item-text,
+        .spa__section-content-top-options-item:hover .spa-h3 {
+          display: none; } }
+
+.spa__section-content-bottom {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem; }
+  .spa__section-content-bottom-title {
+    width: 50%;
+    margin-bottom: 2rem; }
+  .spa__section-content-bottom-team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    margin-bottom: 13rem; }
+    .spa__section-content-bottom-team-item-img {
+      height: 100%;
+      width: 100%; }
+      .spa__section-content-bottom-team-item-img .actual-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .spa__section-content-bottom-team-item-text {
+      margin-top: 2rem;
+      text-align: center; }
+
+.video {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/Video.webp);
+  background-position: center;
+  background-size: cover; }
+  .video .video__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    height: 85vh;
+    gap: 4rem; }
+    @media only screen and (max-width: 75em) {
+      .video .video__section {
+        width: 90%; } }
+    @media only screen and (max-width: 62.5em) {
+      .video .video__section {
+        height: 100vh; } }
+    @media only screen and (max-width: 50em) {
+      .video .video__section {
+        height: 105vh; } }
+    @media only screen and (max-width: 31.25em) {
+      .video .video__section {
+        width: 95%;
+        gap: 5rem; } }
+    .video .video__section-playbutton {
+      position: relative;
+      cursor: pointer; }
+      .video .video__section-playbutton .playbutton {
+        width: 8.6rem;
+        height: 8.6rem;
+        fill: #fff;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        padding: 1.5rem;
+        transition: all .3s;
+        backface-visibility: hidden;
+        position: relative;
+        padding: 1rem; }
+      .video .video__section-playbutton::before, .video .video__section-playbutton::after {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        animation: pulsing 2.3s ease infinite; }
+      .video .video__section-playbutton::after {
+        animation-delay: 0.5s; }
+      .video .video__section-playbutton:hover:after, .video .video__section-playbutton:hover::before {
+        border: 4px solid #005083; }
+      .video .video__section-playbutton:hover .playbutton {
+        background-color: #005083;
+        border: 4px solid #005083;
+        transform: scale(1.18); }
+
+.video-modal {
+  position: relative;
+  transition: all 0.2s;
+  z-index: 5; }
+  .video-modal__container {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .video-modal__container-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto; }
+      @media only screen and (max-width: 62.5em) {
+        .video-modal__container-box {
+          width: 100%; } }
+      .video-modal__container-box .actual-video {
+        width: 100%;
+        height: 85vh;
+        z-index: 1000;
+        background-color: black; }
+        @media only screen and (max-width: 62.5em) {
+          .video-modal__container-box .actual-video {
+            height: 100%; } }
+  .video-modal .video-close-btn {
+    position: absolute;
+    top: .8rem;
+    right: 1.5rem; }
+    @media only screen and (max-width: 62.5em) {
+      .video-modal .video-close-btn {
+        right: .5rem;
+        top: 2rem; } }
+    @media only screen and (max-width: 50em) {
+      .video-modal .video-close-btn {
+        top: 9rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .video-modal .video-close-btn {
+        top: 14rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .video-modal .video-close-btn {
+        top: 17rem; } }
+    @media only screen and (max-width: 21.9em) {
+      .video-modal .video-close-btn {
+        top: 22rem; } }
+    .video-modal .video-close-btn-actual {
+      stroke: #fff;
+      width: 6rem;
+      height: 6rem;
+      cursor: pointer;
+      transition: all .2s; }
+      .video-modal .video-close-btn-actual:hover {
+        transform: scale(1.3); }
+
+.close-video {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s; }
+
+.foods__section {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 17rem;
+  padding-bottom: 15rem; }
+  @media only screen and (max-width: 75em) {
+    .foods__section {
+      width: 90%;
+      padding-top: 12.5rem;
+      padding-bottom: 10rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .foods__section {
+      width: 95%;
+      padding-top: 12rem;
+      padding-bottom: 8rem; } }
+  .foods__section-title {
+    text-align: center;
+    margin: 0 auto;
+    position: relative; }
+    .foods__section-title-twirly {
+      position: absolute;
+      top: -2.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .foods__section-title-twirly .section-twirly {
+        width: 45%; }
+        @media only screen and (max-width: 50em) {
+          .foods__section-title-twirly .section-twirly {
+            width: 70%; } }
+        @media only screen and (max-width: 31.25em) {
+          .foods__section-title-twirly .section-twirly {
+            width: 100%; } }
+  .foods__section-desc {
+    margin-top: 7rem;
+    display: flex;
+    gap: 3rem; }
+    @media only screen and (max-width: 75em) {
+      .foods__section-desc {
+        gap: 1rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .foods__section-desc {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 4rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .foods__section-desc {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 25em) {
+      .foods__section-desc {
+        gap: 1.5rem; } }
+    .foods__section-desc-img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem; }
+      .foods__section-desc-img .actual-img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 2px solid #E5F3FF;
+        padding: 1rem;
+        transition: all .4s;
+        /* Additional styles for devices with no hover capability (e.g., touchscreens) */ }
+        @media only screen and (max-width: 25em) {
+          .foods__section-desc-img .actual-img {
+            padding: .7rem; } }
+        .foods__section-desc-img .actual-img:hover {
+          transform: scale(1.1);
+          border: 2px solid #005083; }
+        @media only screen and (max-width: 50em), only screen and (hover: none) {
+          .foods__section-desc-img .actual-img:hover {
+            transform: scale(1);
+            border: 2px solid #E5F3FF; } }
+  .foods__section-chefsmenu {
+    display: flex;
+    margin-top: 7rem;
+    gap: 4rem; }
+    @media only screen and (max-width: 75em) {
+      .foods__section-chefsmenu {
+        gap: 3rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .foods__section-chefsmenu {
+        flex-direction: column; } }
+    @media only screen and (max-width: 50em) {
+      .foods__section-chefsmenu {
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .foods__section-chefsmenu {
+        width: 100%; } }
+    .foods__section-chefsmenu-desc {
+      flex-basis: 47%;
+      display: flex;
+      flex-direction: column; }
+      @media only screen and (max-width: 75em) {
+        .foods__section-chefsmenu-desc {
+          flex-basis: 51%; } }
+      .foods__section-chefsmenu-desc-img {
+        margin-top: 3rem; }
+        .foods__section-chefsmenu-desc-img .actual-img {
+          width: 100%;
+          height: 100%; }
+    .foods__section-chefsmenu-menu {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 3rem;
+      flex-basis: 53%; }
+      @media only screen and (max-width: 62.5em) {
+        .foods__section-chefsmenu-menu {
+          gap: 5rem; } }
+      .foods__section-chefsmenu-menu-box {
+        border: 1px solid rgba(0, 80, 131, 0.6);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; }
+        @media only screen and (max-width: 62.5em) {
+          .foods__section-chefsmenu-menu-box {
+            height: 52rem; } }
+        @media only screen and (max-width: 21.9em) {
+          .foods__section-chefsmenu-menu-box {
+            height: 40rem; } }
+        .foods__section-chefsmenu-menu-box .menu-title {
+          height: 18%;
+          background-color: #E5F3FF;
+          border-bottom: 1px solid rgba(0, 80, 131, 0.6);
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .foods__section-chefsmenu-menu-box .menu-main {
+          display: flex;
+          flex-direction: column;
+          padding: 0 2rem;
+          height: 100%;
+          justify-content: space-between; }
+          @media only screen and (max-width: 31.25em) {
+            .foods__section-chefsmenu-menu-box .menu-main {
+              padding: 0 1rem; } }
+          .foods__section-chefsmenu-menu-box .menu-main-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 3rem;
+            height: 100%; }
+            .foods__section-chefsmenu-menu-box .menu-main-item:not(:last-child) {
+              border-bottom: 2px dotted rgba(0, 80, 131, 0.6); }
+            @media only screen and (max-width: 31.25em) {
+              .foods__section-chefsmenu-menu-box .menu-main-item {
+                gap: 2rem; } }
+  .foods__section-banner {
+    margin-top: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.6)), url(../img/food/chef-6.webp);
+    background-position: 100% 75%;
+    background-size: cover;
+    height: 47rem;
+    display: flex;
+    justify-content: flex-end; }
+    @media only screen and (max-width: 75em) {
+      .foods__section-banner {
+        background-position: bottom;
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .foods__section-banner {
+        height: 85vh; } }
+    @media only screen and (max-width: 31.25em) {
+      .foods__section-banner {
+        height: 80vh;
+        background-position: center; } }
+    .foods__section-banner-content {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 3rem; }
+      @media only screen and (max-width: 31.25em) {
+        .foods__section-banner-content {
+          width: 100%; } }
+      .foods__section-banner-content-text {
+        width: 60%;
+        padding-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem; }
+        @media only screen and (max-width: 62.5em) {
+          .foods__section-banner-content-text {
+            width: 100%; } }
+
+.foods__section-desc-img:nth-child(1),
+.foods__section-desc-img:nth-child(2),
+.foods__section-desc-img:nth-child(3),
+.foods__section-desc-img:nth-child(4),
+.foods__section-desc-img:nth-child(5),
+.foods__section-desc-img:nth-child(6) {
+  transition: 1s;
+  transition-delay: .4s;
+  transform: scale(0.7);
+  opacity: 0; }
+
+.foods__section-desc-img:nth-child(2) {
+  transition-delay: .6s; }
+
+.foods__section-desc-img:nth-child(3) {
+  transition-delay: .8s; }
+
+.foods__section-desc-img:nth-child(4) {
+  transition-delay: 1s; }
+
+.foods__section-desc-img:nth-child(5) {
+  transition-delay: 1.2s; }
+
+.foods__section-desc-img:nth-child(6) {
+  transition-delay: 1.4s; }
+
+.show-animation .foods__section-desc-img {
+  transform: scale(1);
+  opacity: 1; }
+
+.foods__section-chefsmenu-menu {
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transition-delay: .5s;
+  transform: translateY(100%);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .foods__section-chefsmenu-menu {
+      transform: translateY(100%);
+      transition: all 1.5s; } }
+
+.show-animation .foods__section-chefsmenu-menu {
+  transform: translateY(0);
+  opacity: 1; }
+
+.reviews__section {
+  padding-top: 17rem;
+  padding-bottom: 15rem; }
+  @media only screen and (max-width: 75em) {
+    .reviews__section {
+      padding-top: 13rem;
+      padding-bottom: 10rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .reviews__section {
+      padding-top: 12rem;
+      padding-bottom: 8rem; } }
+  .reviews__section-title {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 85%;
+    margin: 0 auto; }
+    .reviews__section-title-twirly {
+      position: absolute;
+      top: -2.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .reviews__section-title-twirly .section-twirly {
+        width: 45%; }
+        @media only screen and (max-width: 50em) {
+          .reviews__section-title-twirly .section-twirly {
+            width: 70%; } }
+        @media only screen and (max-width: 31.25em) {
+          .reviews__section-title-twirly .section-twirly {
+            width: 100%; } }
+  .reviews__section-carousel-container .carousel-item {
+    background-color: #E5F3FF;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    margin: 7rem 2rem 2rem 2rem;
+    width: 47rem;
+    height: 41.5rem;
+    text-align: center;
+    padding: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .reviews__section-carousel-container .carousel-item {
+        width: 42rem;
+        height: 44rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .reviews__section-carousel-container .carousel-item {
+        width: 40rem;
+        height: 46rem;
+        margin: 7rem 1.5rem 2rem 1.5rem; } }
+    @media only screen and (max-width: 28.13em) {
+      .reviews__section-carousel-container .carousel-item {
+        width: 35.5rem;
+        height: 45.5rem;
+        margin: 7rem 1rem 2rem 1rem;
+        padding: 1.5rem; } }
+    @media only screen and (max-width: 25em) {
+      .reviews__section-carousel-container .carousel-item {
+        width: 32rem;
+        height: 48.5rem;
+        margin: 7rem .8rem 2rem .8rem;
+        padding: 1.2rem; } }
+    @media only screen and (max-width: 21.9em) {
+      .reviews__section-carousel-container .carousel-item {
+        width: 27rem;
+        height: 53rem;
+        margin: 7rem .7rem 2rem .7rem;
+        padding: 1.2rem; } }
+    .reviews__section-carousel-container .carousel-item-img .actual-img {
+      width: 10rem;
+      height: 10rem;
+      object-fit: cover;
+      border-radius: 50%; }
+    .reviews__section-carousel-container .carousel-item-text-country {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: .4rem;
+      margin-bottom: .8rem; }
+      .reviews__section-carousel-container .carousel-item-text-country .actual-img {
+        height: 1.5rem;
+        transform: translateY(-1px); }
+    .reviews__section-carousel-container .carousel-item-text-stars .star-icons {
+      width: 2.2rem;
+      fill: gold;
+      margin-bottom: 1.5rem; }
+  .reviews__section-extra {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5rem;
+    gap: 4rem; }
+    @media only screen and (max-width: 75em) {
+      .reviews__section-extra {
+        gap: 3rem;
+        width: 90%; } }
+    @media only screen and (max-width: 62.5em) {
+      .reviews__section-extra {
+        flex-direction: column; } }
+    @media only screen and (max-width: 31.25em) {
+      .reviews__section-extra {
+        width: 95%; } }
+    .reviews__section-extra-text {
+      flex-basis: 47%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem; }
+      .reviews__section-extra-text-box2 .actual-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .reviews__section-extra-img {
+      flex-basis: 53%; }
+      .reviews__section-extra-img .actual-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
+.flickity-page-dots {
+  display: none; }
+
+.flickity-prev-next-button {
+  top: 54% !important; }
+
+.flickity-button {
+  background: none !important; }
+
+@media only screen and (max-width: 31.25em) {
+  .flickity-prev-next-button .flickity-button-icon {
+    left: -10% !important; }
+  .flickity-prev-next-button.next {
+    right: -20px !important; } }
+
+.carousel-item {
+  transition: all 1.2s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: translateY(70%);
+  opacity: 0; }
+
+.show-animation .carousel-item {
+  transform: translateY(0);
+  opacity: 1; }
+
+.banner-cta-activities__section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Banner-2.webp);
+  background-position: 50% 45%;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media only screen and (max-width: 62.5em) {
+    .banner-cta-activities__section {
+      height: 105vh; } }
+  @media only screen and (max-width: 50em) {
+    .banner-cta-activities__section {
+      height: 110vh; } }
+  .banner-cta-activities__section-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3rem; }
+    @media only screen and (max-width: 75em) {
+      .banner-cta-activities__section-title {
+        width: 90%; } }
+    @media only screen and (max-width: 31.25em) {
+      .banner-cta-activities__section-title {
+        width: 95%; } }
+  .banner-cta-activities__section-title2 {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem; }
+    @media only screen and (max-width: 25em) {
+      .banner-cta-activities__section-title2 {
+        gap: 1.5rem; } }
+    .banner-cta-activities__section-title2-ceo .actual-img {
+      width: 7.5rem;
+      border-radius: 50%; }
+      @media only screen and (max-width: 25em) {
+        .banner-cta-activities__section-title2-ceo .actual-img {
+          width: 6.8rem; } }
+
+.faqs__section {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 17rem;
+  padding-bottom: 15rem; }
+  @media only screen and (max-width: 75em) {
+    .faqs__section {
+      width: 90%;
+      padding-top: 13rem;
+      padding-bottom: 9.5rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .faqs__section {
+      width: 95%;
+      padding-top: 12rem;
+      padding-bottom: 8rem; } }
+  .faqs__section-title {
+    text-align: center;
+    position: relative;
+    margin: 0 auto; }
+    .faqs__section-title-twirly {
+      position: absolute;
+      top: -2.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .faqs__section-title-twirly .section-twirly {
+        width: 45%; }
+        @media only screen and (max-width: 50em) {
+          .faqs__section-title-twirly .section-twirly {
+            width: 70%; } }
+        @media only screen and (max-width: 31.25em) {
+          .faqs__section-title-twirly .section-twirly {
+            width: 100%; } }
+  .faqs__section-content {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    column-gap: 7rem;
+    margin-top: 7rem; }
+    @media only screen and (max-width: 75em) {
+      .faqs__section-content {
+        grid-template-columns: .9fr 1fr;
+        column-gap: 3rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .faqs__section-content {
+        grid-template-columns: 1fr;
+        row-gap: 5rem; } }
+    .faqs__section-content-text {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      .faqs__section-content-text-box {
+        margin-bottom: 4rem; }
+        @media only screen and (max-width: 31.25em) {
+          .faqs__section-content-text-box {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem; } }
+      .faqs__section-content-text-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 3rem;
+        margin-bottom: 4rem; }
+        @media only screen and (max-width: 28.13em) {
+          .faqs__section-content-text-buttons {
+            flex-direction: column; } }
+      .faqs__section-content-text-imgs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5rem; }
+        @media only screen and (max-width: 25em) {
+          .faqs__section-content-text-imgs {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 30vh);
+            gap: .8rem; } }
+        .faqs__section-content-text-imgs .faq-imgs {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+    .faqs__section-content-accordian {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem; }
+      .faqs__section-content-accordian-item {
+        overflow: hidden; }
+        .faqs__section-content-accordian-item-visible {
+          padding: 1rem 2.5rem;
+          border: 2px solid #005083;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 1rem;
+          color: #005083;
+          cursor: pointer; }
+          @media only screen and (max-width: 31.25em) {
+            .faqs__section-content-accordian-item-visible {
+              padding: 1.2rem 1rem; } }
+          .faqs__section-content-accordian-item-visible .faqs-span-icon {
+            font-size: 4rem; }
+        .faqs__section-content-accordian-item .info-shown {
+          background-color: #005083;
+          color: white; }
+        .faqs__section-content-accordian-item .hidden {
+          padding: 0 3.5rem;
+          overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.4s ease-out;
+          backface-visibility: hidden; }
+          @media only screen and (max-width: 75em) {
+            .faqs__section-content-accordian-item .hidden {
+              padding: 0 2.5rem; } }
+          @media only screen and (max-width: 31.25em) {
+            .faqs__section-content-accordian-item .hidden {
+              padding: 0 1rem; } }
+        .faqs__section-content-accordian-item .hidden-p {
+          margin-top: 1.5rem;
+          margin-bottom: 1rem; }
+        .faqs__section-content-accordian-item .show-info {
+          max-height: max-content;
+          transition: all .4s;
+          backface-visibility: hidden; }
+
+.animation-slide-right {
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: translateX(130%);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .animation-slide-right {
+      transform: translateY(100%);
+      transition: all 1.5s; } }
+
+.show-animation .animation-slide-right {
+  transform: translateX(0);
+  opacity: 1; }
+
+.banner-cta__section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Ocean-Villas/4.webp);
+  background-position: 50% 45%;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media only screen and (max-width: 62.5em) {
+    .banner-cta__section {
+      height: 105vh; } }
+  @media only screen and (max-width: 50em) {
+    .banner-cta__section {
+      height: 110vh; } }
+  .banner-cta__section-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5rem; }
+    @media only screen and (max-width: 75em) {
+      .banner-cta__section-title {
+        width: 90%; } }
+    @media only screen and (max-width: 31.25em) {
+      .banner-cta__section-title {
+        width: 95%; } }
+
+.banner-cta-2__section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/Banner.webp);
+  background-position: 50% 45%;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  @media only screen and (max-width: 62.5em) {
+    .banner-cta-2__section {
+      height: 65vh; } }
+  @media only screen and (max-width: 50em) {
+    .banner-cta-2__section {
+      height: 85vh; } }
+  @media only screen and (max-width: 31.25em) {
+    .banner-cta-2__section {
+      height: 105vh; } }
+  .banner-cta-2__section-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; }
+    @media only screen and (max-width: 75em) {
+      .banner-cta-2__section-title {
+        width: 90%; } }
+    @media only screen and (max-width: 31.25em) {
+      .banner-cta-2__section-title {
+        width: 95%; } }
+
+.contact-form__section {
+  background-color: #E5F3FF;
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+  @media only screen and (max-width: 50em) {
+    .contact-form__section {
+      padding-top: 6.5rem;
+      padding-bottom: 8rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .contact-form__section {
+      padding-top: 6rem;
+      padding-bottom: 7rem; } }
+  .contact-form__section-content {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7rem; }
+    @media only screen and (max-width: 75em) {
+      .contact-form__section-content {
+        gap: 3rem;
+        width: 90%; } }
+    @media only screen and (max-width: 62.5em) {
+      .contact-form__section-content {
+        flex-direction: column;
+        gap: 5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .contact-form__section-content {
+        width: 95%; } }
+    .contact-form__section-content-text {
+      flex-basis: 53%; }
+      @media only screen and (max-width: 62.5em) {
+        .contact-form__section-content-text {
+          width: 100%; } }
+      .contact-form__section-content-text-socials {
+        margin-top: 3rem; }
+        .contact-form__section-content-text-socials-icons {
+          display: flex;
+          gap: 1rem;
+          margin-top: 1rem; }
+    .contact-form__section-content-form {
+      flex-basis: 47%; }
+      @media only screen and (max-width: 62.5em) {
+        .contact-form__section-content-form {
+          width: 100%; } }
+      .contact-form__section-content-form .contact-form-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        margin-bottom: 4rem; }
+        @media only screen and (max-width: 25em) {
+          .contact-form__section-content-form .contact-form-container {
+            grid-template-columns: 1fr; } }
+        .contact-form__section-content-form .contact-form-container-item-input {
+          width: 100%;
+          height: 100%;
+          font-size: 1.8rem;
+          background-color: transparent;
+          border: 2px solid #005083;
+          padding: 1.5rem 2rem; }
+          @media only screen and (max-width: 31.25em) {
+            .contact-form__section-content-form .contact-form-container-item-input {
+              padding: 1.5rem 1rem; } }
+          .contact-form__section-content-form .contact-form-container-item-input::placeholder {
+            font-family: "Jost", sans-serif;
+            color: #808080; }
+        .contact-form__section-content-form .contact-form-container .full-grid-1 {
+          grid-column: 1 / -1; }
+
+.contact-form__section-content-form {
+  transition: all 1.9s cubic-bezier(0.2, 0.1, 0.25, 1);
+  transform: translateX(120%);
+  opacity: 0; }
+  @media only screen and (max-width: 50em) {
+    .contact-form__section-content-form {
+      transform: translateY(100%);
+      transition: all 1.5s; } }
+
+.show-animation .contact-form__section-content-form {
+  transform: translateX(0);
+  opacity: 1; }
+
+.form-submit-confirmation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85rem;
+  height: 40rem;
+  background-color: #003761;
+  z-index: 2;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.35);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 62.5em) {
+    .form-submit-confirmation {
+      width: 75rem;
+      height: 35rem;
+      padding: 2.5rem; } }
+  @media only screen and (max-width: 50em) {
+    .form-submit-confirmation {
+      width: 90%;
+      height: 38rem;
+      padding: 2.5rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .form-submit-confirmation {
+      width: 90%;
+      height: 43rem;
+      padding: 1.5rem; } }
+  .form-submit-confirmation::before {
+    content: 'This message will automatically disappear after a few seconds';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5F3FF;
+    font-size: 1.4rem;
+    font-family: "Jost", sans-serif;
+    text-align: center; }
+    @media only screen and (max-width: 31.25em) {
+      .form-submit-confirmation::before {
+        font-size: 1.1rem;
+        height: 4rem; } }
+  .form-submit-confirmation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transform: translateY(-1.5rem); }
+    .form-submit-confirmation-container-img {
+      text-align: center; }
+      .form-submit-confirmation-container-img .actual-img {
+        width: 35%; }
+        @media only screen and (max-width: 50em) {
+          .form-submit-confirmation-container-img .actual-img {
+            width: 50%; } }
+        @media only screen and (max-width: 31.25em) {
+          .form-submit-confirmation-container-img .actual-img {
+            width: 65%; } }
+    .form-submit-confirmation-container-text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 5rem; }
+
+.m-villa-a,
+.m-villa-b,
+.m-villa-c {
+  position: relative;
+  z-index: 6; }
+  .m-villa-a__section,
+  .m-villa-b__section,
+  .m-villa-c__section {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    background-color: white;
+    overflow-y: scroll;
+    transition: all 0.25s; }
+    .m-villa-a__section-container,
+    .m-villa-b__section-container,
+    .m-villa-c__section-container {
+      margin-top: 15rem; }
+      .m-villa-a__section-container-box,
+      .m-villa-b__section-container-box,
+      .m-villa-c__section-container-box {
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+        display: flex;
+        gap: 3rem; }
+        @media only screen and (max-width: 75em) {
+          .m-villa-a__section-container-box,
+          .m-villa-b__section-container-box,
+          .m-villa-c__section-container-box {
+            width: 95%;
+            gap: 2rem; } }
+        @media only screen and (max-width: 62.5em) {
+          .m-villa-a__section-container-box,
+          .m-villa-b__section-container-box,
+          .m-villa-c__section-container-box {
+            flex-direction: column;
+            margin-bottom: 5rem; } }
+        @media only screen and (max-width: 31.25em) {
+          .m-villa-a__section-container-box,
+          .m-villa-b__section-container-box,
+          .m-villa-c__section-container-box {
+            gap: 2rem; } }
+        .m-villa-a__section-container-box-main,
+        .m-villa-b__section-container-box-main,
+        .m-villa-c__section-container-box-main {
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          position: relative;
+          flex-basis: 69%; }
+          @media only screen and (max-width: 31.25em) {
+            .m-villa-a__section-container-box-main,
+            .m-villa-b__section-container-box-main,
+            .m-villa-c__section-container-box-main {
+              gap: 2rem; } }
+          .m-villa-a__section-container-box-main-imgs .slideshow-container,
+          .m-villa-b__section-container-box-main-imgs .slideshow-container,
+          .m-villa-c__section-container-box-main-imgs .slideshow-container {
+            position: relative;
+            height: 50rem;
+            /* Additional styles for devices with no hover capability (e.g., touchscreens) */
+            /* Position the "next button" to the right */ }
+            @media only screen and (max-width: 31.25em) {
+              .m-villa-a__section-container-box-main-imgs .slideshow-container,
+              .m-villa-b__section-container-box-main-imgs .slideshow-container,
+              .m-villa-c__section-container-box-main-imgs .slideshow-container {
+                height: 30rem; } }
+            .m-villa-a__section-container-box-main-imgs .slideshow-container .mySlides,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .mySlides,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .mySlides {
+              width: 100%;
+              height: 100%; }
+              .m-villa-a__section-container-box-main-imgs .slideshow-container .mySlides .numbertext,
+              .m-villa-b__section-container-box-main-imgs .slideshow-container .mySlides .numbertext,
+              .m-villa-c__section-container-box-main-imgs .slideshow-container .mySlides .numbertext {
+                color: #fff;
+                font-size: 1.5rem;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0; }
+              .m-villa-a__section-container-box-main-imgs .slideshow-container .mySlides .slide-imgs,
+              .m-villa-b__section-container-box-main-imgs .slideshow-container .mySlides .slide-imgs,
+              .m-villa-c__section-container-box-main-imgs .slideshow-container .mySlides .slide-imgs {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; }
+            .m-villa-a__section-container-box-main-imgs .slideshow-container .prev, .m-villa-a__section-container-box-main-imgs .slideshow-container .next,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .prev,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .next,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .prev,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 1.2rem 1.7rem;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 2.8rem;
+              transition: 0.5s ease;
+              border-radius: 0 3px 3px 0;
+              background-color: rgba(229, 243, 255, 0.5);
+              user-select: none; }
+            .m-villa-a__section-container-box-main-imgs .slideshow-container .prev:hover, .m-villa-a__section-container-box-main-imgs .slideshow-container .next:hover,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .prev:hover,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .next:hover,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .prev:hover,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .next:hover {
+              background-color: rgba(229, 243, 255, 0.95);
+              color: #000; }
+            @media only screen and (max-width: 50em), only screen and (hover: none) {
+              .m-villa-a__section-container-box-main-imgs .slideshow-container .prev:hover, .m-villa-a__section-container-box-main-imgs .slideshow-container .next:hover,
+              .m-villa-b__section-container-box-main-imgs .slideshow-container .prev:hover,
+              .m-villa-b__section-container-box-main-imgs .slideshow-container .next:hover,
+              .m-villa-c__section-container-box-main-imgs .slideshow-container .prev:hover,
+              .m-villa-c__section-container-box-main-imgs .slideshow-container .next:hover {
+                color: white;
+                background-color: rgba(229, 243, 255, 0.5); } }
+            .m-villa-a__section-container-box-main-imgs .slideshow-container .next,
+            .m-villa-b__section-container-box-main-imgs .slideshow-container .next,
+            .m-villa-c__section-container-box-main-imgs .slideshow-container .next {
+              right: 0;
+              border-radius: 3px 0 0 3px; }
+          .m-villa-a__section-container-box-main-info,
+          .m-villa-b__section-container-box-main-info,
+          .m-villa-c__section-container-box-main-info {
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 7rem; }
+            @media only screen and (max-width: 31.25em) {
+              .m-villa-a__section-container-box-main-info,
+              .m-villa-b__section-container-box-main-info,
+              .m-villa-c__section-container-box-main-info {
+                padding: 1rem;
+                gap: 6rem; } }
+            .m-villa-a__section-container-box-main-info .house-details-container,
+            .m-villa-b__section-container-box-main-info .house-details-container,
+            .m-villa-c__section-container-box-main-info .house-details-container {
+              margin-top: 2rem; }
+              .m-villa-a__section-container-box-main-info .house-details-container-ul,
+              .m-villa-b__section-container-box-main-info .house-details-container-ul,
+              .m-villa-c__section-container-box-main-info .house-details-container-ul {
+                margin-top: 2rem;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 2rem; }
+                @media only screen and (max-width: 75em) {
+                  .m-villa-a__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-b__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-c__section-container-box-main-info .house-details-container-ul {
+                    grid-template-columns: repeat(3, 1fr); } }
+                @media only screen and (max-width: 37.5em) {
+                  .m-villa-a__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-b__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-c__section-container-box-main-info .house-details-container-ul {
+                    grid-template-columns: repeat(2, 1fr); } }
+                @media only screen and (max-width: 31.25em) {
+                  .m-villa-a__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-b__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-c__section-container-box-main-info .house-details-container-ul {
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 0;
+                    row-gap: 2rem; } }
+                @media only screen and (max-width: 25em) {
+                  .m-villa-a__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-b__section-container-box-main-info .house-details-container-ul,
+                  .m-villa-c__section-container-box-main-info .house-details-container-ul {
+                    grid-template-columns: 1fr; } }
+            .m-villa-a__section-container-box-main-info .facilities-container,
+            .m-villa-b__section-container-box-main-info .facilities-container,
+            .m-villa-c__section-container-box-main-info .facilities-container {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: 4rem; }
+              @media only screen and (max-width: 37.5em) {
+                .m-villa-a__section-container-box-main-info .facilities-container,
+                .m-villa-b__section-container-box-main-info .facilities-container,
+                .m-villa-c__section-container-box-main-info .facilities-container {
+                  flex-direction: column;
+                  align-items: stretch;
+                  gap: 6rem; } }
+              .m-villa-a__section-container-box-main-info .facilities-container-provided, .m-villa-a__section-container-box-main-info .facilities-container-amenities,
+              .m-villa-b__section-container-box-main-info .facilities-container-provided,
+              .m-villa-b__section-container-box-main-info .facilities-container-amenities,
+              .m-villa-c__section-container-box-main-info .facilities-container-provided,
+              .m-villa-c__section-container-box-main-info .facilities-container-amenities {
+                flex-basis: 49.95%; }
+                .m-villa-a__section-container-box-main-info .facilities-container-provided-ul, .m-villa-a__section-container-box-main-info .facilities-container-amenities-ul,
+                .m-villa-b__section-container-box-main-info .facilities-container-provided-ul,
+                .m-villa-b__section-container-box-main-info .facilities-container-amenities-ul,
+                .m-villa-c__section-container-box-main-info .facilities-container-provided-ul,
+                .m-villa-c__section-container-box-main-info .facilities-container-amenities-ul {
+                  list-style-type: none;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 2rem;
+                  margin-top: 2rem; }
+                  .m-villa-a__section-container-box-main-info .facilities-container-provided-ul-li, .m-villa-a__section-container-box-main-info .facilities-container-amenities-ul-li,
+                  .m-villa-b__section-container-box-main-info .facilities-container-provided-ul-li,
+                  .m-villa-b__section-container-box-main-info .facilities-container-amenities-ul-li,
+                  .m-villa-c__section-container-box-main-info .facilities-container-provided-ul-li,
+                  .m-villa-c__section-container-box-main-info .facilities-container-amenities-ul-li {
+                    display: flex;
+                    align-items: center; }
+              .m-villa-a__section-container-box-main-info .facilities-container .divider,
+              .m-villa-b__section-container-box-main-info .facilities-container .divider,
+              .m-villa-c__section-container-box-main-info .facilities-container .divider {
+                flex-basis: .1%;
+                background-color: rgba(0, 55, 97, 0.8);
+                height: 22rem; }
+                @media only screen and (max-width: 31.25em) {
+                  .m-villa-a__section-container-box-main-info .facilities-container .divider,
+                  .m-villa-b__section-container-box-main-info .facilities-container .divider,
+                  .m-villa-c__section-container-box-main-info .facilities-container .divider {
+                    display: none; } }
+            .m-villa-a__section-container-box-main-info .desc-extra-info-ul,
+            .m-villa-b__section-container-box-main-info .desc-extra-info-ul,
+            .m-villa-c__section-container-box-main-info .desc-extra-info-ul {
+              margin-top: 2rem;
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 2rem; }
+              @media only screen and (max-width: 75em) {
+                .m-villa-a__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-b__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-c__section-container-box-main-info .desc-extra-info-ul {
+                  grid-template-columns: repeat(3, 1fr); } }
+              @media only screen and (max-width: 37.5em) {
+                .m-villa-a__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-b__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-c__section-container-box-main-info .desc-extra-info-ul {
+                  grid-template-columns: repeat(2, 1fr); } }
+              @media only screen and (max-width: 31.25em) {
+                .m-villa-a__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-b__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-c__section-container-box-main-info .desc-extra-info-ul {
+                  grid-template-columns: repeat(2, 1fr);
+                  column-gap: 0;
+                  row-gap: 2rem; } }
+              @media only screen and (max-width: 25em) {
+                .m-villa-a__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-b__section-container-box-main-info .desc-extra-info-ul,
+                .m-villa-c__section-container-box-main-info .desc-extra-info-ul {
+                  grid-template-columns: 1fr; } }
+            .m-villa-a__section-container-box-main-info .villa-packages,
+            .m-villa-b__section-container-box-main-info .villa-packages,
+            .m-villa-c__section-container-box-main-info .villa-packages {
+              display: flex;
+              flex-direction: column;
+              gap: 4rem; }
+              .m-villa-a__section-container-box-main-info .villa-packages-one, .m-villa-a__section-container-box-main-info .villa-packages-two, .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-four, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-six, .m-villa-a__section-container-box-main-info .villa-packages-seven, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+              .m-villa-b__section-container-box-main-info .villa-packages-one,
+              .m-villa-b__section-container-box-main-info .villa-packages-two,
+              .m-villa-b__section-container-box-main-info .villa-packages-three,
+              .m-villa-b__section-container-box-main-info .villa-packages-four,
+              .m-villa-b__section-container-box-main-info .villa-packages-five,
+              .m-villa-b__section-container-box-main-info .villa-packages-six,
+              .m-villa-b__section-container-box-main-info .villa-packages-seven,
+              .m-villa-b__section-container-box-main-info .villa-packages-nine,
+              .m-villa-c__section-container-box-main-info .villa-packages-one,
+              .m-villa-c__section-container-box-main-info .villa-packages-two,
+              .m-villa-c__section-container-box-main-info .villa-packages-three,
+              .m-villa-c__section-container-box-main-info .villa-packages-four,
+              .m-villa-c__section-container-box-main-info .villa-packages-five,
+              .m-villa-c__section-container-box-main-info .villa-packages-six,
+              .m-villa-c__section-container-box-main-info .villa-packages-seven,
+              .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Banner.webp);
+                height: 42rem;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                padding: 3rem; }
+                @media only screen and (max-width: 75em) {
+                  .m-villa-a__section-container-box-main-info .villa-packages-one, .m-villa-a__section-container-box-main-info .villa-packages-two, .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-four, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-six, .m-villa-a__section-container-box-main-info .villa-packages-seven, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                    height: 48rem; } }
+                @media only screen and (max-width: 50em) {
+                  .m-villa-a__section-container-box-main-info .villa-packages-one, .m-villa-a__section-container-box-main-info .villa-packages-two, .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-four, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-six, .m-villa-a__section-container-box-main-info .villa-packages-seven, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                    height: 54rem;
+                    padding: 2rem; } }
+                @media only screen and (max-width: 37.5em) {
+                  .m-villa-a__section-container-box-main-info .villa-packages-one, .m-villa-a__section-container-box-main-info .villa-packages-two, .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-four, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-six, .m-villa-a__section-container-box-main-info .villa-packages-seven, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                    height: 60rem; } }
+                @media only screen and (max-width: 21.9em) {
+                  .m-villa-a__section-container-box-main-info .villa-packages-one, .m-villa-a__section-container-box-main-info .villa-packages-two, .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-four, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-six, .m-villa-a__section-container-box-main-info .villa-packages-seven, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                    height: 68rem; } }
+                .m-villa-a__section-container-box-main-info .villa-packages-one .prices, .m-villa-a__section-container-box-main-info .villa-packages-two .prices, .m-villa-a__section-container-box-main-info .villa-packages-three .prices, .m-villa-a__section-container-box-main-info .villa-packages-four .prices, .m-villa-a__section-container-box-main-info .villa-packages-five .prices, .m-villa-a__section-container-box-main-info .villa-packages-six .prices, .m-villa-a__section-container-box-main-info .villa-packages-seven .prices, .m-villa-a__section-container-box-main-info .villa-packages-nine .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-one .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-two .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-three .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-four .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-five .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-six .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-seven .prices,
+                .m-villa-b__section-container-box-main-info .villa-packages-nine .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-one .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-two .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-three .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-four .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-five .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-six .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-seven .prices,
+                .m-villa-c__section-container-box-main-info .villa-packages-nine .prices {
+                  position: relative;
+                  display: flex;
+                  gap: 2rem;
+                  margin-top: 1rem;
+                  margin-bottom: 1rem; }
+                  .m-villa-a__section-container-box-main-info .villa-packages-one .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-two .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-three .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-four .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-five .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-six .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-seven .prices .old-price::before, .m-villa-a__section-container-box-main-info .villa-packages-nine .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven .prices .old-price::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven .prices .old-price::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine .prices .old-price::before {
+                    content: '';
+                    position: absolute;
+                    width: 4.2rem;
+                    height: 3px;
+                    background-color: red;
+                    top: 50%;
+                    transform: translateY(-1px); }
+                  .m-villa-a__section-container-box-main-info .villa-packages-one .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-two .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-three .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-four .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-five .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-six .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-seven .prices .old-price-2::before, .m-villa-a__section-container-box-main-info .villa-packages-nine .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-one .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-two .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-three .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-four .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-five .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-six .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-seven .prices .old-price-2::before,
+                  .m-villa-b__section-container-box-main-info .villa-packages-nine .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-one .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-two .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-three .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-four .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-five .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-six .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-seven .prices .old-price-2::before,
+                  .m-villa-c__section-container-box-main-info .villa-packages-nine .prices .old-price-2::before {
+                    content: '';
+                    position: absolute;
+                    width: 5.65rem;
+                    height: 3px;
+                    background-color: red;
+                    top: 50%;
+                    transform: translateY(-1px); }
+              .m-villa-a__section-container-box-main-info .villa-packages-two,
+              .m-villa-b__section-container-box-main-info .villa-packages-two,
+              .m-villa-c__section-container-box-main-info .villa-packages-two {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/budget.webp); }
+              .m-villa-a__section-container-box-main-info .villa-packages-three, .m-villa-a__section-container-box-main-info .villa-packages-five, .m-villa-a__section-container-box-main-info .villa-packages-nine,
+              .m-villa-b__section-container-box-main-info .villa-packages-three,
+              .m-villa-b__section-container-box-main-info .villa-packages-five,
+              .m-villa-b__section-container-box-main-info .villa-packages-nine,
+              .m-villa-c__section-container-box-main-info .villa-packages-three,
+              .m-villa-c__section-container-box-main-info .villa-packages-five,
+              .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-2.webp);
+                position: relative;
+                overflow: hidden; }
+                .m-villa-a__section-container-box-main-info .villa-packages-three::before, .m-villa-a__section-container-box-main-info .villa-packages-five::before, .m-villa-a__section-container-box-main-info .villa-packages-nine::before,
+                .m-villa-b__section-container-box-main-info .villa-packages-three::before,
+                .m-villa-b__section-container-box-main-info .villa-packages-five::before,
+                .m-villa-b__section-container-box-main-info .villa-packages-nine::before,
+                .m-villa-c__section-container-box-main-info .villa-packages-three::before,
+                .m-villa-c__section-container-box-main-info .villa-packages-five::before,
+                .m-villa-c__section-container-box-main-info .villa-packages-nine::before {
+                  content: 'Best Seller';
+                  position: absolute;
+                  width: 22rem;
+                  height: 5rem;
+                  background-color: gold;
+                  top: 2rem;
+                  right: -6rem;
+                  transform: rotate(40deg);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 2rem;
+                  font-family: "Jost", sans-serif;
+                  font-weight: 500; }
+                  @media only screen and (max-width: 37.5em) {
+                    .m-villa-a__section-container-box-main-info .villa-packages-three::before, .m-villa-a__section-container-box-main-info .villa-packages-five::before, .m-villa-a__section-container-box-main-info .villa-packages-nine::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-three::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-five::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-nine::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-three::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-five::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-nine::before {
+                      top: 2.2rem;
+                      right: -6.8rem;
+                      font-size: 1.8rem;
+                      height: 4rem; } }
+                  @media only screen and (max-width: 31.25em) {
+                    .m-villa-a__section-container-box-main-info .villa-packages-three::before, .m-villa-a__section-container-box-main-info .villa-packages-five::before, .m-villa-a__section-container-box-main-info .villa-packages-nine::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-three::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-five::before,
+                    .m-villa-b__section-container-box-main-info .villa-packages-nine::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-three::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-five::before,
+                    .m-villa-c__section-container-box-main-info .villa-packages-nine::before {
+                      top: 1.8rem;
+                      right: -7.4rem;
+                      font-size: 1.6rem;
+                      height: 3.8rem; } }
+              .m-villa-a__section-container-box-main-info .villa-packages-four,
+              .m-villa-b__section-container-box-main-info .villa-packages-four,
+              .m-villa-c__section-container-box-main-info .villa-packages-four {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Nearby-2.webp); }
+              .m-villa-a__section-container-box-main-info .villa-packages-five,
+              .m-villa-b__section-container-box-main-info .villa-packages-five,
+              .m-villa-c__section-container-box-main-info .villa-packages-five {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/family-vacation.webp); }
+              .m-villa-a__section-container-box-main-info .villa-packages-six,
+              .m-villa-b__section-container-box-main-info .villa-packages-six,
+              .m-villa-c__section-container-box-main-info .villa-packages-six {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Banner-2.webp); }
+              .m-villa-a__section-container-box-main-info .villa-packages-seven,
+              .m-villa-b__section-container-box-main-info .villa-packages-seven,
+              .m-villa-c__section-container-box-main-info .villa-packages-seven {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Friends.webp); }
+              .m-villa-a__section-container-box-main-info .villa-packages-nine,
+              .m-villa-b__section-container-box-main-info .villa-packages-nine,
+              .m-villa-c__section-container-box-main-info .villa-packages-nine {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-2.webp); }
+        .m-villa-a__section-container-box-side,
+        .m-villa-b__section-container-box-side,
+        .m-villa-c__section-container-box-side {
+          flex-basis: 31%; }
+          @media only screen and (max-width: 81.25em) {
+            .m-villa-a__section-container-box-side,
+            .m-villa-b__section-container-box-side,
+            .m-villa-c__section-container-box-side {
+              flex-basis: 35%; } }
+          @media only screen and (max-width: 75em) {
+            .m-villa-a__section-container-box-side,
+            .m-villa-b__section-container-box-side,
+            .m-villa-c__section-container-box-side {
+              flex-basis: 38%; } }
+          .m-villa-a__section-container-box-side-text,
+          .m-villa-b__section-container-box-side-text,
+          .m-villa-c__section-container-box-side-text {
+            background-color: #fff;
+            height: max-content;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            position: sticky;
+            top: 1.3rem;
+            left: 0; }
+            .m-villa-a__section-container-box-side-text-contact,
+            .m-villa-b__section-container-box-side-text-contact,
+            .m-villa-c__section-container-box-side-text-contact {
+              padding: 1.5rem 2rem;
+              box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2); }
+              @media only screen and (max-width: 31.25em) {
+                .m-villa-a__section-container-box-side-text-contact,
+                .m-villa-b__section-container-box-side-text-contact,
+                .m-villa-c__section-container-box-side-text-contact {
+                  padding: 1rem 1rem; } }
+              .m-villa-a__section-container-box-side-text-contact .contact-text,
+              .m-villa-b__section-container-box-side-text-contact .contact-text,
+              .m-villa-c__section-container-box-side-text-contact .contact-text {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                margin-bottom: 2rem; }
+              .m-villa-a__section-container-box-side-text-contact .contact__section-text-ul,
+              .m-villa-b__section-container-box-side-text-contact .contact__section-text-ul,
+              .m-villa-c__section-container-box-side-text-contact .contact__section-text-ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem; }
+            .m-villa-a__section-container-box-side-text-othervillas,
+            .m-villa-b__section-container-box-side-text-othervillas,
+            .m-villa-c__section-container-box-side-text-othervillas {
+              padding: 1.5rem 2rem;
+              box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2); }
+              @media only screen and (max-width: 31.25em) {
+                .m-villa-a__section-container-box-side-text-othervillas,
+                .m-villa-b__section-container-box-side-text-othervillas,
+                .m-villa-c__section-container-box-side-text-othervillas {
+                  padding: 1rem 1rem; } }
+              .m-villa-a__section-container-box-side-text-othervillas .othervillas,
+              .m-villa-b__section-container-box-side-text-othervillas .othervillas,
+              .m-villa-c__section-container-box-side-text-othervillas .othervillas {
+                margin-top: 3rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem; }
+                .m-villa-a__section-container-box-side-text-othervillas .othervillas-items,
+                .m-villa-b__section-container-box-side-text-othervillas .othervillas-items,
+                .m-villa-c__section-container-box-side-text-othervillas .othervillas-items {
+                  display: flex;
+                  align-items: center;
+                  gap: 1.5rem; }
+                  @media only screen and (max-width: 31.25em) {
+                    .m-villa-a__section-container-box-side-text-othervillas .othervillas-items,
+                    .m-villa-b__section-container-box-side-text-othervillas .othervillas-items,
+                    .m-villa-c__section-container-box-side-text-othervillas .othervillas-items {
+                      gap: 1rem; } }
+                  .m-villa-a__section-container-box-side-text-othervillas .othervillas-items-img .actual-img,
+                  .m-villa-b__section-container-box-side-text-othervillas .othervillas-items-img .actual-img,
+                  .m-villa-c__section-container-box-side-text-othervillas .othervillas-items-img .actual-img {
+                    width: 7.5rem;
+                    height: 7.5rem;
+                    object-fit: cover;
+                    border-radius: 50%; }
+    .m-villa-a__section .villa-desc-close-btn,
+    .m-villa-a__section .villa-b-desc-close-btn,
+    .m-villa-a__section .villa-c-desc-close-btn,
+    .m-villa-b__section .villa-desc-close-btn,
+    .m-villa-b__section .villa-b-desc-close-btn,
+    .m-villa-b__section .villa-c-desc-close-btn,
+    .m-villa-c__section .villa-desc-close-btn,
+    .m-villa-c__section .villa-b-desc-close-btn,
+    .m-villa-c__section .villa-c-desc-close-btn {
+      position: absolute;
+      top: 2.5rem;
+      right: 1.5rem; }
+      @media only screen and (max-width: 62.5em) {
+        .m-villa-a__section .villa-desc-close-btn,
+        .m-villa-a__section .villa-b-desc-close-btn,
+        .m-villa-a__section .villa-c-desc-close-btn,
+        .m-villa-b__section .villa-desc-close-btn,
+        .m-villa-b__section .villa-b-desc-close-btn,
+        .m-villa-b__section .villa-c-desc-close-btn,
+        .m-villa-c__section .villa-desc-close-btn,
+        .m-villa-c__section .villa-b-desc-close-btn,
+        .m-villa-c__section .villa-c-desc-close-btn {
+          top: 13rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .m-villa-a__section .villa-desc-close-btn,
+        .m-villa-a__section .villa-b-desc-close-btn,
+        .m-villa-a__section .villa-c-desc-close-btn,
+        .m-villa-b__section .villa-desc-close-btn,
+        .m-villa-b__section .villa-b-desc-close-btn,
+        .m-villa-b__section .villa-c-desc-close-btn,
+        .m-villa-c__section .villa-desc-close-btn,
+        .m-villa-c__section .villa-b-desc-close-btn,
+        .m-villa-c__section .villa-c-desc-close-btn {
+          right: 0; } }
+      @media only screen and (max-width: 31.25em) {
+        .m-villa-a__section .villa-desc-close-btn,
+        .m-villa-a__section .villa-b-desc-close-btn,
+        .m-villa-a__section .villa-c-desc-close-btn,
+        .m-villa-b__section .villa-desc-close-btn,
+        .m-villa-b__section .villa-b-desc-close-btn,
+        .m-villa-b__section .villa-c-desc-close-btn,
+        .m-villa-c__section .villa-desc-close-btn,
+        .m-villa-c__section .villa-b-desc-close-btn,
+        .m-villa-c__section .villa-c-desc-close-btn {
+          right: 0rem; } }
+      .m-villa-a__section .villa-desc-close-btn-actual,
+      .m-villa-a__section .villa-b-desc-close-btn-actual,
+      .m-villa-a__section .villa-c-desc-close-btn-actual,
+      .m-villa-b__section .villa-desc-close-btn-actual,
+      .m-villa-b__section .villa-b-desc-close-btn-actual,
+      .m-villa-b__section .villa-c-desc-close-btn-actual,
+      .m-villa-c__section .villa-desc-close-btn-actual,
+      .m-villa-c__section .villa-b-desc-close-btn-actual,
+      .m-villa-c__section .villa-c-desc-close-btn-actual {
+        stroke: #fff;
+        width: 6.5rem;
+        height: 6.5rem;
+        cursor: pointer;
+        transition: all .2s; }
+        @media only screen and (max-width: 62.5em) {
+          .m-villa-a__section .villa-desc-close-btn-actual,
+          .m-villa-a__section .villa-b-desc-close-btn-actual,
+          .m-villa-a__section .villa-c-desc-close-btn-actual,
+          .m-villa-b__section .villa-desc-close-btn-actual,
+          .m-villa-b__section .villa-b-desc-close-btn-actual,
+          .m-villa-b__section .villa-c-desc-close-btn-actual,
+          .m-villa-c__section .villa-desc-close-btn-actual,
+          .m-villa-c__section .villa-b-desc-close-btn-actual,
+          .m-villa-c__section .villa-c-desc-close-btn-actual {
+            stroke: black; } }
+        @media only screen and (max-width: 37.5em) {
+          .m-villa-a__section .villa-desc-close-btn-actual,
+          .m-villa-a__section .villa-b-desc-close-btn-actual,
+          .m-villa-a__section .villa-c-desc-close-btn-actual,
+          .m-villa-b__section .villa-desc-close-btn-actual,
+          .m-villa-b__section .villa-b-desc-close-btn-actual,
+          .m-villa-b__section .villa-c-desc-close-btn-actual,
+          .m-villa-c__section .villa-desc-close-btn-actual,
+          .m-villa-c__section .villa-b-desc-close-btn-actual,
+          .m-villa-c__section .villa-c-desc-close-btn-actual {
+            width: 7rem;
+            height: 7rem; } }
+        @media only screen and (max-width: 31.25em) {
+          .m-villa-a__section .villa-desc-close-btn-actual,
+          .m-villa-a__section .villa-b-desc-close-btn-actual,
+          .m-villa-a__section .villa-c-desc-close-btn-actual,
+          .m-villa-b__section .villa-desc-close-btn-actual,
+          .m-villa-b__section .villa-b-desc-close-btn-actual,
+          .m-villa-b__section .villa-c-desc-close-btn-actual,
+          .m-villa-c__section .villa-desc-close-btn-actual,
+          .m-villa-c__section .villa-b-desc-close-btn-actual,
+          .m-villa-c__section .villa-c-desc-close-btn-actual {
+            width: 6rem;
+            height: 6rem; } }
+        .m-villa-a__section .villa-desc-close-btn-actual:hover,
+        .m-villa-a__section .villa-b-desc-close-btn-actual:hover,
+        .m-villa-a__section .villa-c-desc-close-btn-actual:hover,
+        .m-villa-b__section .villa-desc-close-btn-actual:hover,
+        .m-villa-b__section .villa-b-desc-close-btn-actual:hover,
+        .m-villa-b__section .villa-c-desc-close-btn-actual:hover,
+        .m-villa-c__section .villa-desc-close-btn-actual:hover,
+        .m-villa-c__section .villa-b-desc-close-btn-actual:hover,
+        .m-villa-c__section .villa-c-desc-close-btn-actual:hover {
+          transform: scale(1.3); }
+  .m-villa-a .remove-villa,
+  .m-villa-b .remove-villa,
+  .m-villa-c .remove-villa {
+    opacity: 0;
+    visibility: hidden; }
+  .m-villa-a .remove-villa-b,
+  .m-villa-b .remove-villa-b,
+  .m-villa-c .remove-villa-b {
+    opacity: 0;
+    visibility: hidden; }
+  .m-villa-a .remove-villa-c,
+  .m-villa-b .remove-villa-c,
+  .m-villa-c .remove-villa-c {
+    opacity: 0;
+    visibility: hidden; }
