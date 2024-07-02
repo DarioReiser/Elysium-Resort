@@ -29,7 +29,7 @@ To start the project please follow these instructions.
 
 1. Clone the Repository.
    ```sh
-    git clone https://github.com/DarioReiser/Elysium-Resort
+    git clone https://github.com/DarioReiser/Elysium-Resort.git
     cd Elysium-Resort
     ```
 2. Install the dependencies
