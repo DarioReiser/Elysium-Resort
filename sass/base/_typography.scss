@@ -1,0 +1,469 @@
+// Typography SCSS ///////
+
+%sectionHeadings{
+    font-size: 5.4rem;
+    font-family: $font-main;
+    color: $section-heading-color;
+}
+
+%sectionPTexts{
+    font-size: $p-text;
+    font-family: $font-text;
+}
+
+.intro-text-main-h3{
+    font-size: 3.5rem;
+    font-family: $font-text;
+    color: $section-heading-color;
+    font-weight: 500;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-large) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 2.6rem;
+    }
+}
+
+.intro-text-h3{
+    font-size: 3rem;
+    font-family: $font-text;
+    color: $section-heading-color;
+    font-weight: 500;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-large) {
+        font-size: 2.6rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 2.4rem;
+    }
+}
+
+.intro-text-p{
+    font-size: 2.2rem;
+    font-family: $font-text;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-large) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1.8rem;
+    }
+}
+
+.mobile-menu-heading{
+    font-family: $font-text;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: $section-heading-color;
+    font-weight: 500;
+} 
+
+.main-heading-h1{
+    font-size: 10rem;
+    font-family: $font-main;
+    color: $normal-white;
+    margin-bottom: 4rem;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-second-medium) {
+        font-size: 8.3rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 7.5rem;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: $bp-sm-large--phones){
+        font-size: 6.5rem;
+    }
+
+    @media only screen and (max-width: $bp-medium--phones){
+        font-size: 5.7rem;
+    }
+
+    @media only screen and (max-width: $bp-small--phones){
+        font-size: 5rem;
+    }
+}
+
+.main-heading-h1-subtitle{
+    font-size: 3.6rem;
+    font-family: $font-main;
+    color: $normal-white;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 2.5rem;
+    }
+}
+
+.lang-selector{
+    font-size: 2.4rem;
+    font-family: $font-text;
+}
+
+.section-heading{
+    @extend %sectionHeadings;
+    text-transform: capitalize;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 5.2rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 4.4rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-large--phones){
+        font-size: 4.2rem;
+    }
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones){
+        font-size: 4rem;
+    }
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones){
+        font-size: 3.8rem;
+    }
+}
+
+.section-title-white{
+    font-size: 5.4rem;
+    font-family: $font-main;
+    font-weight: 600;
+    color: $normal-white;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 5.2rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 4.4rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-large--phones){
+        font-size: 4.2rem;
+    }
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones){
+        font-size: 4rem;
+    }
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones){
+        font-size: 3.8rem;
+    }
+}
+
+.section-subtitle{
+    font-family: $font-text;
+    font-size: $h6-subtitle;
+    font-weight: 400;
+    margin-top: 2rem;
+    width: 65%;
+    margin: auto;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest){
+        width: 100%;
+    }
+}
+
+.section-sub-h3{
+    font-family: $font-main;
+    font-size: $h3-sub-heading;
+    color: $section-heading-color;
+    margin-bottom: 1rem;
+
+        // Large Phones
+        @media only screen and (max-width: $bp-large-phones){
+            font-size: 3.8rem;
+        }
+
+        @media only screen and (max-width: $bp-sm-large--phones){
+            font-size: 3.6rem;
+        }
+
+        // Medium Sized Phones
+        @media only screen and (max-width: $bp-medium--phones){
+            font-size: 3.4rem;
+        }
+
+        // Small Phones
+        @media only screen and (max-width: $bp-small--phones){
+            font-size: 3.2rem;
+        }
+}
+
+.section-p-text{
+    @extend %sectionPTexts;
+}
+
+.list-text{
+    @extend %sectionPTexts;
+    display: flex;
+    align-items: center;
+}
+
+.extra-info{
+    font-family: $font-text;
+    font-size: $p-text;
+    font-weight: 500;
+}
+
+.card-info-1,
+.card-info-2,
+.card-info-3{
+    font-family: $font-text;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: .4rem .9rem;
+    display: flex;
+    align-items: center;
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones){
+        padding: .3rem .6rem;
+    }
+}
+
+.card-info-1{
+    background-color:  #FFD700;
+}
+
+.card-info-2{
+    background-color: #FF6F61;
+}
+
+.card-info-3{
+    background-color: #98FB98;
+}
+
+.desc-h5-title{
+    font-size: 2.6rem;
+    font-family: $font-main;
+}
+
+.explore-p{
+    font-size: 1.6rem;
+    font-family: $font-text;
+}
+
+.back-p-text{
+    font-size: 2rem;
+    font-family: $font-text;
+    text-transform: uppercase;
+    color: $section-heading-color;
+    font-weight: 500;
+}
+
+.click-message-p{
+    font-size: 1.6rem;
+    font-family: $font-text;
+    color: $normal-white;
+}
+
+.section-h4{
+    font-family: $font-main;
+    font-size: 3.5rem;
+}
+
+.offered-icon-heading{
+    font-size: 2.5rem;
+    font-family: $font-text;
+    color: $color-button-hover;
+}
+
+.spa-h3{
+    font-size: 3rem;
+    font-family: $font-main;
+
+    @media only screen and (max-width: $bp-large-phones) {
+        font-size: 2.6rem;
+    }
+}
+
+.amenities-h6{
+    font-family: $font-text;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $section-heading-color;
+    margin-bottom: .5rem;
+}
+
+.pageIndex-p{
+    font-family: $font-text;
+    font-size: 1.5rem;
+    color: $section-heading-color;
+    font-weight: 500;
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        width: 80%;
+    }
+}
+
+.foods-h4{
+    color: $section-heading-color;
+    font-size: 2.6rem;
+    font-family: $font-main;
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones) {
+        font-size: 2.4rem;
+    }
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones) {
+        font-size: 2rem;
+    }
+}
+
+.foods-menu-h4{
+    color: $section-heading-color;
+    font-size: 3.2rem;
+    font-family: $font-main;
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones) {
+        font-size: 3rem;
+    }
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones) {
+        font-size: 2.6rem;
+    }
+}
+
+.foods-menu-p{
+    color: $color-grey-dark-1;
+    font-size: 1.5rem;
+    font-family: $font-text;
+
+    // Small Phones
+    @media only screen and (max-width: $bp-small--phones) {
+        font-size: 1.2rem;
+    }
+}
+
+.review-h3{
+    font-size: 3rem;
+    font-family: $font-main;
+    color: $section-heading-color;
+}
+
+.review-p{
+    font-size: 1.6rem;
+    font-family: $font-text;
+}
+
+.ceo-text{
+    font-size: 2.5rem;
+    color: $normal-white;
+    font-weight: 300;
+    font-family: $font-main;
+}
+
+.ceo-text-title{
+    font-size: 1.6rem;
+    color: $normal-white;
+    font-family: $font-text;
+}
+
+.faq-titles{
+    font-size: 2.4rem;
+    font-family: $font-main;
+    font-weight: 700;
+}
+
+.banner-p-text{
+    font-size: $p-text;
+    color: $normal-white;
+    font-family: $font-text;
+}
+
+.sub-text-h5{
+    font-size: 2.2rem;
+    color: $section-heading-color;
+    margin-bottom: .5rem;
+    font-family: $font-text;
+}
+
+.footer-heading{
+    font-size: 3.2rem;
+    font-family: $font-main;
+    color: $normal-white;
+    margin-bottom: 2rem;
+}
+
+.footer-p{
+    font-size: 1.6rem;
+    font-family: $font-text;
+    color: $normal-white;
+}
+
+.footer__bottom-copyright-p{
+    font-size: 1.5rem;
+    font-family: $font-text;
+    color: $normal-white;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+.footer-logo-p{
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: $font-text;
+    color: $normal-white;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-small){
+        font-size: 2rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 1.8rem;
+    }
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones){
+        font-size: 1.6rem;
+    }
+}
+
+.submitted-form-h3{
+    font-size: 3rem;
+    font-family: $font-text;
+    font-weight: 400;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 2.6rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 2.4rem;
+    }
+}

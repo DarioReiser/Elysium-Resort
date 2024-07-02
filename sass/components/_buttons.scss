@@ -1,0 +1,188 @@
+// Buttons SCSS ///////
+
+%default-btn-styles{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: $font-text;
+    border: 2px solid white;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest) {
+        padding: 2rem 3rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+}
+
+.btn-default {
+    color: $normal-white;
+    transition: all .3s;
+    @extend %default-btn-styles;
+    background-color: transparent;
+    padding: 2rem 3rem; /* Default padding for larger screens */
+
+    /* Media query for small laptops, tablets, and iPads */
+    @media only screen and (max-width: $bp-largest) {
+        padding: 2rem 3rem;
+    }
+
+    /* Media query for large phones */
+    @media only screen and (max-width: $bp-large-phones) {
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    &:hover {
+        background-color: white;
+        color: $normal-black;
+    }
+
+    /* Additional styles for devices with no hover capability (e.g., touchscreens) */
+    @media only screen and (max-width: $bp-second-medium), only screen and (hover: none) {
+        &:hover {
+            background-color: transparent; /* Remove hover effect */
+            color: $normal-white; /* Reset text color */
+        }
+    }
+}
+
+
+.btn-default-black{
+    color: $normal-white;
+    transition: all .3s;
+    color: $normal-black;
+    border: 2px solid $normal-black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: $font-text;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest) {
+        padding: 2rem 3rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+        text-align: center;
+    }
+    
+    &:hover{
+        border: 2px solid $color-button-hover;
+        background-color: $color-button-hover;
+        color: $normal-white;
+    }
+
+    /* Additional styles for devices with no hover capability (eg., touchscreens) */
+    @media only screen and (max-width: $bp-second-medium), onlyscreen and (hover: none) {
+        &:hover {
+            background-color: transparent; /* Remove hover effect */
+            color: $normal-black; /* Reset text color */
+            border: 2px solid $normal-black; /* Reset border color */
+        }
+    }
+}
+
+.btn-default-black-card{
+    display: block;
+    color: $normal-white;
+    text-align: center;
+    transition: all .3s;
+    color: $normal-black;
+    border: 2px solid $normal-black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-family: $font-text;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 500;
+    background-color: transparent;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-largest) {
+        padding: 2rem 3rem;
+    }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        font-size: 1.5rem;
+        padding: 1.5rem 2.5rem;
+    }
+    
+    &:hover{
+        border: 2px solid $color-button-hover;
+        background-color: $color-button-hover;
+        color: $normal-white;
+    }
+
+    /* Additional styles for devices with no hover capability (eg.,touchscreens) */
+    @media only screen and (max-width: $bp-second-medium), onlyscreen and (hover: none) {
+        &:hover {
+            background-color: transparent; /* Remove hover effect */
+            color: $normal-black; /* Reset text color */
+            border: 2px solid $normal-black; /* Reset border color */
+        }
+    }
+}
+
+.full{
+    width: 45%;
+    margin: 0 auto;
+}
+
+
+.btn-default-white{
+    &:link,
+    &:visited{
+        color: $normal-black;
+        background-color: white;
+        @extend %default-btn-styles;
+
+        // Small Laptops - Tablets - Ipads
+        @media only screen and (max-width: $bp-largest) {
+            padding: 2rem 3rem;
+        }
+
+        // Large Phones
+       @media only screen and (max-width: $bp-large-phones){
+            font-size: 1.5rem;
+            padding: 1.5rem 2.5rem;
+        }
+    }
+}
+
+.blue-background{
+    background-color: $color-button-hover;
+    color: $normal-white;
+    border: 2px solid $color-button-hover;
+    
+    &:hover{
+        background-color: $color-button-hover;
+        color: $normal-white;
+        border: 2px solid $color-button-hover;
+    }
+
+    /* Additional styles for devices with no hover capability (e.g., touchscreens) */
+    @media only screen and (max-width: $bp-second-medium), only screen and (hover: none) {
+        &:hover {
+            background-color: $color-button-hover; /* Remove hover effect */
+            color: $normal-white; /* Reset text color */
+        }
+    }
+}

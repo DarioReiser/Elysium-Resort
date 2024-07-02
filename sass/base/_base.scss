@@ -1,0 +1,257 @@
+// Base SCSS /////
+
+// COLOR VARIABLES //////////////////////////////
+$color-primary:  #E5F3FF;
+$color-primary-dark: #96c7dc;
+
+$color-secondary: #f3feff;
+$color-secondary-dark: #68B9C0;
+
+$color-grey-light-1: #D3D3D3;
+$color-grey-light-2: #C0C0C0;
+
+$color-grey-dark-1: #696969;
+$color-grey-dark-2: #808080;
+
+$color-button-hover: #005083;
+$section-heading-color: #003761;
+
+$normal-black: #000;
+$normal-white: #fff;
+
+
+// FONT SIZING //////////////////////////////////
+// Section Headings (H2)
+$h2-section-heading: 5.2rem;
+$h3-sub-heading: 3.8rem;
+$h4-sub-heading: 3rem;
+$h6-subtitle: 1.7rem;
+$p-text: 1.8rem;
+
+
+// FONT VARIABLES ///////////////////////////////
+$font-main: 'Cormorant Garamond', serif;
+$font-text: 'Jost', sans-serif;
+$font-fancy: 'Parisienne', cursive;
+
+
+// UTILITY CLASSSES //////////////////////////////
+// Margin Bottom
+.ex1{margin-bottom: .5rem;}
+.ex2{margin-bottom: 1rem;}
+.mb-sm{ margin-bottom: 2rem; }
+.mb-md{ margin-bottom: 4rem; }
+.mb-lg{ margin-bottom: 6rem; }
+.mb-xl{ margin-bottom: 8rem; }
+.mb-xxl{ margin-bottom: 10rem; }
+.remove-margin{ margin: 0 !important; }
+
+// Margin Top
+.mt-sm{ margin-top: 2rem; }
+.mt-md{ margin-top: 4rem; }
+.mt-lg{ margin-top: 6rem; }
+.mt-xl{ margin-top: 8rem; }
+.mt-xxl{ margin-top: 10rem; }
+
+// Padding Bottom
+.pb-sm{ padding-bottom: 2rem; }
+.pb-md{ padding-bottom: 4rem; }
+.pb-lg{ padding-bottom: 6rem; }
+.pb-xl{ padding-bottom: 8rem; }
+.pb-xxl{ padding-bottom: 10rem; }
+.pb-huge{ padding-bottom: 10rem; }
+
+// Padding Top
+.pt-sm{ padding-top: 2rem; }
+.pt-md{ padding-top: 4rem; }
+.pt-lg{ padding-top: 6rem; }
+.pt-xl{ padding-top: 8rem; }
+.pt-xxl{ padding-top: 10rem; }
+.pt-huge{ padding-top: 12rem; }
+
+.white-text{ color: $normal-white !important; }
+.blue-text{ color: $section-heading-color !important; }
+.black-text{ color: $normal-black !important; }
+.italic-text{ font-style: italic; }
+.line-through-text{ text-decoration: line-through; }
+
+
+// RESPONSIVE BREAKPOINTS //////////////////////
+
+// Min Width Large Laptops
+$bp-enormous: 156.25em; // (156.25em) = 2500px / 16
+$bp-massive: 137.5em; // (137.5em) = 2200px / 16
+$bp-xxxl: 125em; // (125em) = 2000px / 16
+$bp-xxl: 112.5em; // (112.5em) = 1800px / 16
+$bp-xl: 100em; // (100em) = 1600px / 16
+
+// Small Laptops - Tablets - Ipads
+$bp-huge: 81.25em; // (81.25em) = 1300px / 16
+$bp-largest: 75em; // (75em) = 1200px / 16
+$bp-large: 62.5em; // (62.5em) = 1000px / 16
+$bp-medium: 56.25em; // (56.25em) = 900px / 16
+$bp-second-medium: 50em; // (56.25em) = 800px / 16
+$bp-small: 37.5em; // (37.5em) = 600px / 16
+
+// Mobile Phones 
+$bp-large-phones: 31.25em; // (31.25em) = 500px / 16 
+$bp-sm-large--phones: 28.13em; // (28.13em) = 450px / 16 
+$bp-medium--phones: 25em; // (25em) = 400px / 16 
+$bp-small--phones: 21.9em; // (21.9em) = 350px / 16 
+
+
+// MIXINS //////////////////////////////////////
+@mixin defaultflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin defaultPageWidth{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+// ICON STYLES /////////////////////////////////
+.header-icons{
+    width: 3.2rem;
+    height: 3.2rem;
+    fill: $normal-white;
+    cursor: pointer;
+}
+
+.black-header-icons{
+    fill: $normal-black;
+}
+
+.lang-icons{
+    height: 2.9rem;
+    width: 2.9rem;
+    stroke: $normal-white;
+    cursor: pointer;
+}
+
+.black-lang-icon{
+    stroke: $normal-black;
+}
+
+.tick-icon{
+    width: 2.2rem;
+    margin-right: .9rem;
+    fill: $color-button-hover;
+}
+
+.location-icons{
+    width: 3rem;
+    height: 3rem;
+    margin-right: .9rem;
+    fill: $color-button-hover;
+}
+
+.extra-info-ul{
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 3rem;
+    row-gap: .5rem;
+    list-style-type: none;
+
+    // Small Laptops - Tablets - Ipads
+    @media only screen and (max-width: $bp-huge) {
+        column-gap: 2.5rem;
+    }
+    
+    @media only screen and (max-width: $bp-largest) {
+        grid-template-columns: 1fr;
+   }
+
+    // Large Phones
+    @media only screen and (max-width: $bp-large-phones){
+        margin-bottom: 3.5rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-large--phones) {
+        column-gap: 2rem;
+    }
+
+    // Medium Sized Phones
+    @media only screen and (max-width: $bp-medium--phones) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.desc-icons{
+    width: 3rem;
+    height: 3rem;
+    fill: $color-button-hover;
+    margin-right: 1rem;
+    stroke: $color-button-hover;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+// DEFAULT STYLES //////////////////////////////
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    @media only screen and (min-width: $bp-xl) {
+        font-size: 69%;
+    }
+
+    @media only screen and (min-width: $bp-xxl) {
+        font-size: 77%;
+    }
+
+    @media only screen and (min-width: $bp-xxxl) {
+        font-size: 86%;
+    }
+
+    @media only screen and (min-width: $bp-massive) {
+        font-size: 95%;
+    }
+
+    @media only screen and (min-width: $bp-enormous) {
+        font-size: 108%;
+    }
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+
+main{
+    position: relative;
+}
+
+section{
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255,255,255, 0.5); 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: $color-primary-dark; 
+}
+

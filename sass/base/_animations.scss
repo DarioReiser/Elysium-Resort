@@ -1,0 +1,58 @@
+// Home Page SCSS /////
+@keyframes fadeIn {
+    0% {transform: translateY(65%);
+        opacity: 0;}
+
+    100%{transform: translateY(0);
+         opacity: 1;}
+}
+
+@keyframes backAndForth {
+    0%{transform: rotate(20deg);}
+
+    50%{transform: rotate(35deg);}
+
+    100%{transform: rotate(20deg);}
+}
+
+@keyframes upsideDownBackAndForth {
+    0%{transform: rotate(230deg);}
+
+    50%{transform: rotate(210deg);}
+
+    100%{transform: rotate(230deg);}
+}
+
+@keyframes backAndForth2 {
+    0%{transform: rotate(70deg) rotateX(180deg);}
+
+    50%{transform: rotate(85deg) rotateX(180deg);}
+
+    100%{transform: rotate(70deg) rotateX(180deg);}
+}
+
+@keyframes upsideDownBackAndForth2 {
+    0%{transform: rotate(110deg);}
+
+    50%{transform: rotate(100deg);}
+
+    100%{transform: rotate(110deg);}
+}
+
+@keyframes ZoomInOut {
+    0%{transform: scale(1);}
+
+    50%{transform: scale(1.05);}
+
+    100%{transform: scale(1);}
+}
+
+@keyframes pulsing {
+    0% { transform: scale(0.6);
+         opacity: 0;}
+  
+    50% { transform: scale(1);
+          opacity: 0.8;}
+    100% { transform: scale(1.2);
+          opacity: 0;}
+}

@@ -1,0 +1,242 @@
+// Footer SCSS ///////
+
+.footer{
+
+    &__top{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 1rem;
+        padding: 0.9rem;
+
+        // Small Laptops - Tablets - Ipads
+        @media only screen and (max-width: $bp-largest) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        // Large Phones 
+        @media only screen and (max-width: $bp-large-phones){
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            padding: .7rem;
+            gap: .8rem;
+        }
+
+        &-img{
+            position: relative;
+            overflow: hidden;
+
+            .actual-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &-content{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                @include defaultflex;
+                background-color: rgba($color-button-hover, 0.5);
+                color: $normal-white;
+                transition: all .4s;
+                opacity: 0;
+
+                .footer-insta-svg{
+                    width: 5rem;
+                    height: 5rem;
+                    fill: $normal-white;
+                }
+            }
+
+            &:hover &-content{
+                opacity: 1;
+            }
+
+            /* Additional styles for devices with no hover capability (e.g., touchscreens) */
+            @media only screen and (max-width: $bp-second-medium), only screen and (hover: none) {
+                &:hover &-content{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__bottom{
+        background-color: $section-heading-color;
+
+        &-above{
+            width: 85%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding-top: 8rem;
+
+            // Small Laptops - Tablets - Ipads
+            @media only screen and (max-width: $bp-large) {
+                width: 95%;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 5rem;
+            }
+
+            @media only screen and (max-width: $bp-small){
+                grid-template-columns: 1fr;
+            }
+
+            &-details{
+                text-align: center;
+                width: 80%;
+                margin: 0 auto;
+
+                &-icons{
+                    @include defaultflex;
+                    gap: 2rem;
+
+                    .footer-icons{
+                        width: 3.2rem;
+                        height: 3.2rem;
+                        fill: $normal-white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .details-align{
+                
+                // Small Laptops - Tablets - Ipads
+                @media only screen and(max-width: $bp-large) {
+                    grid-column: 1 / -1;
+                }
+            }
+        }
+
+        .divider{
+            @include defaultPageWidth;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+
+            // Small Laptops - Tablets - Ipads
+            @media only screen and (max-width: $bp-large) {
+                width: 85%;
+            }
+            
+            &-span{
+                display: block;
+                border-top: 1px solid rgba(255, 255, 255, 0.45);
+                height: 2px;
+            }
+        }
+
+        &-below{
+            @include defaultflex;
+            flex-direction: column;
+
+            &-logo{
+                font-size: 11rem;
+                font-family: $font-main;
+                font-weight: 300;
+                color: $normal-white;
+                margin-bottom: 4rem;
+                text-align: center;
+
+                // Small Laptops - Tablets - Ipads
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 10rem;
+                }
+
+                @media only screen and (max-width: $bp-small){
+                    margin-bottom: 5rem;
+                }
+
+                // Large Phones
+                @media only screen and (max-width: $bp-large-phones){
+                    font-size: 9rem;
+                }
+
+                // Medium Sized Phones
+                @media only screen and (max-width: $bp-medium--phones){
+                    font-size: 8rem;
+                }
+
+                // Small Phones
+                @media only screen and (max-width: $bp-small--phones){
+                    font-size: 7rem;
+                }
+            }
+
+            &-nav{
+
+                &-ul{
+                    list-style-type: none;
+                    font-family: $font-text;
+                    display: flex;
+                    gap: 3.5rem;
+
+                    // Small Laptops - Tablets - Ipads
+                    @media only screen and (max-width: $bp-small){
+                        gap: 2rem;
+                    }
+
+                    // Large Phones 
+                    @media only screen and (max-width: $bp-large-phones){
+                        flex-direction: column-reverse;
+                        align-items: center;
+                        gap: 3.5rem;
+                        margin-bottom: 7rem;
+                    }
+
+                    &-li{
+
+                        .sub-menu-link{
+                            font-size: 1.5rem;
+                            text-transform: uppercase;
+                            color: $normal-white;
+                            text-decoration: none;
+
+                            // Small Laptops - Tablets - Ipads
+                            @media only screen and (max-width: $bp-small){
+                                font-size: 1.4rem;
+                            }
+
+                            // Large Phones 
+                            @media only screen and (max-width: $bp-large-phones){
+                                font-size: 1.8rem;
+                            }
+
+                            // Medium Sized Phones
+                            @media only screen and (max-width: $bp-medium--phones){
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-copyright{
+            text-align: center;
+            margin-top: 7rem;
+            padding-bottom: 2rem;
+
+            // Large Phones 
+            @media only screen and (max-width: $bp-large-phones){
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// Modal Footer
+.modal-footer{
+    width: 100%;
+    @include defaultflex;
+    height: 7rem;
+    box-shadow: 0 0 .5rem rgba($normal-black, 0.3);
+}
