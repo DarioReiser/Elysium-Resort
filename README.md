@@ -24,6 +24,21 @@ Elysium Resort is a fictional resort nestled in the picturesque Maldives, that o
 ## What to do if you would like to contribute
 If you see a typo in the project or think a certain feature isn't working as well as it should or you can make the code more efficient, please feel free to clone the repository and then send a pull request so that I can see the changes and if they are solid, I will happily merge them into the main branch.
 
+## How to get started
+To start the project please follow these instructions.
+
+1. Clone the Repository.
+   ```sh
+    git clone https://github.com/DarioReiser/Elysium-Resort
+    cd Elysium-Resort
+    ```
+2. Install the dependencies
+   ```sh
+    npm install
+    ```
+
+That should be all. After that, you can click live-server to check if everything is working and you can start working on the project.
+
 ---
 
 #### Have fun exploring the website and I hope you like it!
